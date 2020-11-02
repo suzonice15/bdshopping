@@ -120,28 +120,27 @@
     {{--</ul>--}}
 {{--</div>--}}
 <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.plugin.min.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.number.min.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.flexslider-min.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.easing.min.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.touchSwipe.min.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/flipclock.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.liquid-slider.min.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.cookie.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.tweet.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/zoomsl-3.0.min.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/retina.min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.number.min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/flipclock.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.liquid-slider.min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.tweet.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/zoomsl-3.0.min.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/retina.min.js"></script>
 <script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/custom.js"></script>
 <script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/mycustom.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/custom_product.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/elevatezoom.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/lightslider.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery.countdown.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/scroller.js"></script>
-<script type="text/javascript" src="https://www.dhakabaazar.com/js/owl.carousel.js"></script>
+ <script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/elevatezoom.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/lightslider.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.countdown.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/scroller.js"></script>
+<script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/owl.carousel.js"></script>
 
 
 <script>

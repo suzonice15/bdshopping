@@ -17,8 +17,8 @@
                         @if($sliders)
                             @foreach($sliders as $slider)
 
-                        <div class="item <?php if($count==0) { echo 'active';}  ?> "><img src="{{ url('public/uploads/sliders')}}/{{$slider->homeslider_picture}}"
-                                                      alt="  {{$slider->homeslider_title}}"></div>
+                        <div class="item <?php if($count==0) { echo 'active';} else { echo '';}  ?> "><img src="{{ url('public/uploads/sliders')}}/{{$slider->homeslider_picture}}"
+                                                      alt="{{$slider->homeslider_title}}"></div>
 
 
 
@@ -29,18 +29,20 @@
                         @endif
 
 
-                            <?php $count=0;?>
-                            @if($sliders)
-                                @foreach($sliders as $slider)
 
                             <ol class="carousel-indicators">
-                                <li data-target="#bannerSlider" data-slide-to="<?php echo $count;  ?> " class="<?php if($count==0) { echo 'active';}  ?> ">&nbsp;</li>
+                                <?php $count=0;?>
+                                @if($sliders)
+                                    @foreach($sliders as $slider)
 
+                                    <li data-target="#bannerSlider" data-slide-to="<?php echo $count;?>" class="<?php if($count==0) { echo 'active';}  ?> ">&nbsp;</li>
+
+                                            <?php ++$count?>
+
+                                        @endforeach
+                                    @endif
                             </ol>
-                                    <?php ++$count?>
 
-                                @endforeach
-                            @endif
 
 
                     </div>

@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html>
+
+
+<?php
+
+
+$customer_id = Session::get('customer_id');
+
+
+if (isset($page_title)) {
+    $title = $page_title . '-' . get_option('site_title');
+} else {
+
+    $title = get_option('site_title');
+}
+
+
+
+
+?>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>BdShopping zone</title>
+    <title><?=$title?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="<?=get_option('icon')?>">
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
-    <meta name="robots" content="noodp"/>
-    <link rel="canonical" href="https://www.dhakabaazar.com/"/>
-    <meta property="og:locale" content="EN"/>
-    <meta property="og:url" content="https://www.dhakabaazar.com/stylish-sharee-fashion"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Stylish Sharee Fashion"/>
-    <meta property="og:description" content="Stylish Sharee Fashion"/>
-    <meta property="og:image" content="http://www.dhakabaazar.com/uploads/logogif.gif"/>
-    <meta property="og:site_name" content="Dhaka Bazar"/>
 
-    <link rel="image_src" href="http://www.dhakabaazar.com/uploads/logogif.gif"/>
+    <meta name="title" content="<?php if (isset($seo_title)) {
+        echo $seo_title;
+    }?>"/>
+    <meta name="keywords" content="<?php if (isset($seo_keywords)) {
+        echo $seo_keywords;
+    }?>"/>
+    <meta name="description" content="<?php if (isset($seo_description)) {
+        echo $seo_description;
+    }?>"/>
+
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <meta name="_base_url" content="{{ url('/') }}">
+
+    <meta name="robots" content="index,follow"/>
+
+
+    <link rel="canonical" href="{{url()->current()}}"/>
+    <meta property="og:locale" content="EN"/>
+    <meta property="og:url" content="{{url()->current()}}"/>
+    <meta property="og:type" content="<?php if (isset($seo_description)) {
+        echo $seo_description;
+    }?>"/>
+    <meta property="og:title" content="<?php if (isset($seo_title)) {
+        echo $seo_title;
+    }?>"/>
+    <meta property="og:description" name="description" content="<?php if (isset($seo_description)) {
+        echo $seo_description;
+    }?>"/>
+    <meta property="og:image" content="<?php if (isset($share_picture)) {
+        echo $share_picture;
+    } ?>"/>
+    <meta property="og:site_name" content="<?php if (isset($seo_keywords)) {
+        echo $seo_keywords;
+    }?>"/>
+
+
+
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,300italic,600italic,400,800,700,600,300"/>
     <link href="http://fonts.googleapis.com/css?family=Tahoma"/>
     <link rel="stylesheet" type="text/css"
@@ -26,10 +71,10 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/font_end/')}}/css/flipclock.css"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/font_end/')}}/css/liquid-slider.css"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/font_end/')}}/css/flexslider.css"/>
-    <script type="text/javascript" src="https://www.dhakabaazar.com/js/html5shiv.js"></script>
-    <script type="text/javascript" src="https://www.dhakabaazar.com/js/respond.min.js"></script>
-    <script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery-1.10.2.js"></script>
-    <script type="text/javascript" src="https://www.dhakabaazar.com/js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/html5shiv.js"></script>
+    <script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/respond.min.js"></script>
+    <script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery-migrate.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
     <!--<link rel="stylesheet" type="text/css" href="https://www.dhakabaazar.com/css/jquery.countdown.css"/>-->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/font_end/')}}/css/style.css"/>
@@ -37,10 +82,10 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/font_end/')}}/css/owl.carousel.min.css"/>
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/font_end/')}}/css/owl.theme.default.min.css "/>
     <!-- single product -->
-    <link rel="stylesheet" type="text/css" href="https://www.dhakabaazar.com/css/my/jquery.bxslider.css"/>
-    <script src="https://www.dhakabaazar.com/css/my/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/font_end/')}}/css/jquery.bxslider.css"/>
+    <script src="{{ asset('assets/font_end/')}}/js/jquery.bxslider.min.js"></script>
     <script>var ci_version = '3.0.3';</script>
-    <script>var base_url = 'https://www.dhakabaazar.com/';</script> <!-- Facebook Pixel Code -->
+    <script>var base_url = '{{url('/')}}/';</script> <!-- Facebook Pixel Code -->
 
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 

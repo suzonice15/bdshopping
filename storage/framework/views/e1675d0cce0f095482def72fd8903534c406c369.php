@@ -16,8 +16,8 @@
                         <?php if($sliders): ?>
                             <?php $__currentLoopData = $sliders; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $slider): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
-                        <div class="item <?php if($count==0) { echo 'active';}  ?> "><img src="<?php echo e(url('public/uploads/sliders')); ?>/<?php echo e($slider->homeslider_picture); ?>"
-                                                      alt="  <?php echo e($slider->homeslider_title); ?>"></div>
+                        <div class="item <?php if($count==0) { echo 'active';} else { echo '';}  ?> "><img src="<?php echo e(url('public/uploads/sliders')); ?>/<?php echo e($slider->homeslider_picture); ?>"
+                                                      alt="<?php echo e($slider->homeslider_title); ?>"></div>
 
 
 
@@ -28,18 +28,20 @@
                         <?php endif; ?>
 
 
-                            <?php $count=0;?>
-                            <?php if($sliders): ?>
-                                <?php $__currentLoopData = $sliders; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $slider): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
                             <ol class="carousel-indicators">
-                                <li data-target="#bannerSlider" data-slide-to="<?php echo $count;  ?> " class="<?php if($count==0) { echo 'active';}  ?> ">&nbsp;</li>
+                                <?php $count=0;?>
+                                <?php if($sliders): ?>
+                                    <?php $__currentLoopData = $sliders; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $slider): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 
+                                    <li data-target="#bannerSlider" data-slide-to="<?php echo $count;?>" class="<?php if($count==0) { echo 'active';}  ?> ">&nbsp;</li>
+
+                                            <?php ++$count?>
+
+                                        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                    <?php endif; ?>
                             </ol>
-                                    <?php ++$count?>
 
-                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                            <?php endif; ?>
 
 
                     </div>
