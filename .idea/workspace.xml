@@ -2,40 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2b2b47-53b5-4eec-a04a-0aa477ad2326" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/css/jquery.bxslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/elevatezoom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/flipclock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery-1.10.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery-migrate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.bxslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.countdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.easing.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.flexslider-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.liquid-slider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.number.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.prettyPhoto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.touchSwipe.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.tweet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/lightslider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/owl.carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/retina.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/scroller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/font_end/js/zoomsl-3.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/sessions/1PvP8FbZnqLSD299zqXEgrH5P85spatwU7Knde0J" afterPath="$PROJECT_DIR$/storage/framework/sessions/1PvP8FbZnqLSD299zqXEgrH5P85spatwU7Knde0J" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/font_end.zip" afterPath="$PROJECT_DIR$/assets/font_end.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.zip" afterPath="$PROJECT_DIR$/resources.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/sessions/FiiJqRP48p5U1s7WUhqa4zBafbSVWkx75FcWkacb" afterPath="$PROJECT_DIR$/storage/framework/sessions/FiiJqRP48p5U1s7WUhqa4zBafbSVWkx75FcWkacb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/website/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/website/home.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/font_end/js/owl.carousel.js" afterPath="$PROJECT_DIR$/assets/font_end/js/owl.carousel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/website/includes/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/website/includes/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/website/includes/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/website/includes/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/532678735b42cf189228e7cb295ee809dbcc03e1.php" afterPath="$PROJECT_DIR$/storage/framework/views/532678735b42cf189228e7cb295ee809dbcc03e1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/e1675d0cce0f095482def72fd8903534c406c369.php" afterPath="$PROJECT_DIR$/storage/framework/views/e1675d0cce0f095482def72fd8903534c406c369.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/laravel.log" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/7a19de385646303783f6d7c03159def7d052ae54.php" afterPath="$PROJECT_DIR$/storage/framework/views/7a19de385646303783f6d7c03159def7d052ae54.php" />
     </list>
     <ignored path="suhojbuy.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +45,8 @@
       <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/website/includes/footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="142" column="67" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="67" />
+            <state relative-caret-position="241">
+              <caret line="53" column="68" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -563,12 +538,12 @@
       <workItem from="1604220387882" duration="1221000" />
       <workItem from="1604222075313" duration="19315000" />
       <workItem from="1604315471910" duration="1025000" />
-      <workItem from="1604317694755" duration="7530000" />
+      <workItem from="1604317694755" duration="8624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222024000" />
+    <option name="totallyTimeSpent" value="223118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1260" height="944" extended-state="0" />
@@ -1062,8 +1037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/website/includes/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="142" column="67" selection-start-line="142" selection-start-column="36" selection-end-line="142" selection-end-column="67" />
+        <state relative-caret-position="241">
+          <caret line="53" column="68" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="68" />
           <folding />
         </state>
       </provider>

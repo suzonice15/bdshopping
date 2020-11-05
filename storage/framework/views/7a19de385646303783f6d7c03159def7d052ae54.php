@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-7">
-                <div class="footer-delivery-adreess"><h3><a href="http://dhakabaazar.com/">Bdshopping zone.</a></h3><span><a
+                <div class="footer-delivery-adreess"><h3><a href="<?php echo e(url('/')); ?>">Bdshopping zone.</a></h3><span><a
                                 href="<?php echo e(url('/')); ?>/">Home</a></span> <span><a href="<?php echo e(url('/')); ?>/about">About</a></span>
                     <span><a href="<?php echo e(url('/')); ?>/return-policy">Return Policy</a></span> <span><a
                                 href="<?php echo e(url('/')); ?>/terms-and-conditions">Terms & Conditions</a></span> <span><a
@@ -12,20 +12,20 @@
 
                 </div>
                 <div class="footer-delivery-adreess"><h3 style="color:#F2F2F2;">Payment</h3> <span><a
-                                href="http://dhakabaazar.com/replacementpolicy">Replacement Policy</a></span> <span><a
-                                href="http://dhakabaazar.com/refundpolicy">Refund Policy</a></span> <span><a
-                                href="http://dhakabaazar.com/customercomplain">Complain</a></span>
+                                href="<?php echo e(url('/')); ?>/replacementpolicy">Replacement Policy</a></span> <span><a
+                                href="<?php echo e(url('/')); ?>/refundpolicy">Refund Policy</a></span> <span><a
+                                href="<?php echo e(url('/')); ?>/customercomplain">Complain</a></span>
                     <div class="footer-border"></div>
                 </div>
                 <div class="footer-p-delivery-adreess">
                     <div class="footer-delivery-adreess"><h3 style="color:#F2F2F2;">We Accept</h3> <span
                                 style="text-align:center;">Cash On Delivery</span> <span><img
-                                    src="http://dhakabaazar.com/images/footer-cod.png" alt=""></span> <span><img
-                                    src="http://dhakabaazar.com/images/footer-bkash.png" alt=""></span> <span><img
-                                    src="http://dhakabaazar.com/images/footer-bdbl.png" alt=""></span> <span><img
-                                    src="http://dhakabaazar.com/images/footer-visa.png" alt=""></span> <span><img
-                                    src="http://dhakabaazar.com/images/footer-mastercard.png" alt=""></span> <span><img
-                                    src="http://dhakabaazar.com/images/amex.png" alt="#"></span>
+                                    src="<?php echo e(url('/')); ?>/images/footer-cod.png" alt=""></span> <span><img
+                                    src="<?php echo e(url('/')); ?>/images/footer-bkash.png" alt=""></span> <span><img
+                                    src="<?php echo e(url('/')); ?>/images/footer-bdbl.png" alt=""></span> <span><img
+                                    src="<?php echo e(url('/')); ?>/images/footer-visa.png" alt=""></span> <span><img
+                                    src="<?php echo e(url('/')); ?>/images/footer-mastercard.png" alt=""></span> <span><img
+                                    src="<?php echo e(url('/')); ?>/images/amex.png" alt="#"></span>
                         <div class="footer-border"></div>
                     </div>
                 </div>
@@ -51,25 +51,25 @@
                     </div>
                     <div class="footer-ques-complain">
                         <div class="thuumbnail"><a href="#"><span><img
-                                            src="http://dhakabaazar.com/images/footer-ques.png" alt="#"> Question</span></a> <a
-                                    href="#"><span><img src="http://dhakabaazar.com/images/footer-opinion.png" alt="#"> Comment</span></a>
-                            <a href="#"><span><img src="http://dhakabaazar.com/images/footer-complain.png" alt="#"> Complain</span></a>
+                                            src="<?php echo e(url('/')); ?>/images/footer-ques.png" alt="#"> Question</span></a> <a
+                                    href="#"><span><img src="<?php echo e(url('/')); ?>/images/footer-opinion.png" alt="#"> Comment</span></a>
+                            <a href="#"><span><img src="<?php echo e(url('/')); ?>/images/footer-complain.png" alt="#"> Complain</span></a>
                         </div>
                     </div>
                     <div class="footer-phone-number"><span> <font>Phone</font>: +88078-2154242 </span> <span> <font>Email</font>: bdshopping@gmail.com </span>
-                        <span> <font>Inbox</font>: <a href="https://www.facebook.com/dhakabaazarbd/">https://www.facebook.com/bdshopping/</a><br> </span>
+                        <span> <font>Inbox</font>: <a href="https://www.facebook.com/bdshopping/">https://www.facebook.com/bdshopping/</a><br> </span>
                     </div>
                     <div class="footer-social-icon"><span class="fb_icon"><a class="facebook social-icon"
-                                                                             href="https://www.facebook.com/dhakabaazarbd/"
+                                                                             href="https://www.facebook.com/bdshopping//"
                                                                              title="Facebook" target="_blank"> <i
                                         class="fa fa-facebook"></i> </a></span> <span class="tw_icon"><a
-                                    href="https://twitter.com/dhakabaazar"><i class="fa fa-twitter"></i> </a></span> <span
+                                    href="https://twitter.com/bdshopping"><i class="fa fa-twitter"></i> </a></span> <span
                                 class="gp_icon"><a href="https://plus.google.com/u/0/105163760293150281771"><i
                                         class="fa fa-google-plus"></i></a> </span> <span class="lk_icon"><a href="#"><i
                                         class="fa fa-linkedin"></i></a> </span> <span class="in_icon"><a href="#"><i
                                         class="fa fa-instagram"></i></a> </span></div>
                     <div class="footer-copyright"><span>© Copyright- Bdshopping zone 2020 || Powered By <a
-                                    href="https://www.dhakabaazar.com/" target="_blank">Bdshopping zone.</a><br><br></span></div>
+                                    href="<?php echo e(url('/')); ?>" target="_blank">Bdshopping zone.</a><br><br></span></div>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
                 <td colspan="3" class="cart-heading"><span class="itemno">0</span> ITEMS</td>
             </tr>
             <tr>
-                <td colspan="3" class="cart-action"><a href="https://www.dhakabaazar.com/" style="width:100%">Shop
+                <td colspan="3" class="cart-action"><a href="<?php echo e(url('/')); ?>" style="width:100%">Shop
                         Now</a></td>
             </tr>
         </table>
@@ -100,10 +100,13 @@
             <div class="animated infinite pulse mypage-alo-ph-circle-fill"></div>
             <div class="animated infinite tada mypage-alo-ph-img-circle"></div>
         </div>
-    </a></div> <!--zia end edith ----> <!-- facebook login sdk -->
+    </a>
+</div>
+<!--zia end edith ----> <!-- facebook login sdk -->
 
 
-<a id="gotop"><i class="fa fa-chevron-circle-up "></i></a>
+
+
 
     
     
@@ -118,6 +121,7 @@
                                              
         
     
+
 
 <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 <script type="text/javascript" src="<?php echo e(asset('assets/font_end/')); ?>/js/jquery.plugin.min.js"></script>
@@ -172,9 +176,9 @@
                 $('span.itemno').text(data.result.count);
                 //jQuery('header .cartbtn .total span.price').text(response.current_cart_total);
             }
-        })
+        });
 
-    })
+    });
 </script>
 <script>
     $(document).on('click','.buy_now',function () {
