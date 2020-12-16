@@ -102,25 +102,6 @@
         </div>
     </a>
 </div>
-<!--zia end edith ----> <!-- facebook login sdk -->
-
-
-
-
-
-    
-    
-        
-                                            
-        
-                                           
-        
-                                           
-                                           
-        
-                                             
-        
-    
 
 
 <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>

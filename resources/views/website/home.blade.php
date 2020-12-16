@@ -83,17 +83,17 @@
     $home_cat = explode(",", get_option('home_cat_section'));
     //   $home_cat_section= array_key_first($home_cat_section);
     $home_cat_section = reset($home_cat);
-
-
-
      if($home_cat_section){
-
     //  $category_id=$category->category_id;
     $category_info = get_category_info($home_cat_section);
 
 
-    $products= DB::table('product')->select('product.product_id','product_title','product_name','discount_price','product_price','folder','feasured_image','sku')->join('product_category_relation','product.product_id','=','product_category_relation.product_id')
-            ->where('product_category_relation.category_id',$home_cat_section)->where('status','=',1)->orderBy('modified_time','desc')->paginate(10);
+   if($category_info){
+    $products= DB::table('product')
+            ->select('product.product_id','product_title','product_name','discount_price','product_price','folder','feasured_image','sku')
+            ->join('product_category_relation','product.product_id','=','product_category_relation.product_id')
+            ->where('product_category_relation.category_id',$home_cat_section)->where('status','=',1)
+            ->orderBy('modified_time','desc')->paginate(10);
     ?>
     <div class="container remove_class"
          style="background-color: white; margin-top: 23px; margin-bottom: 0px; padding-left: 27px; padding-right: 19px;">
@@ -178,7 +178,7 @@
     </div>
 
 
-    <?php }  ?>
+    <?php } } ?>
 
 
 

@@ -94,9 +94,7 @@ Route::get('admin/default/setting', 'admin\SettingController@defaultSetting');
 Route::post('admin/default/setting', 'admin\SettingController@defaultSetting');
 Route::get('admin/social/setting', 'admin\SettingController@socialSetting');
 Route::post('admin/social/setting', 'admin\SettingController@socialSetting');
-Route::get('admin/default/mailSetting', 'admin\SettingController@mailSetting');
 
-Route::post('admin/social/smtpAdd', 'admin\SettingController@smtpAdd');
 
 
 /****=============== product section    =====================  ******/

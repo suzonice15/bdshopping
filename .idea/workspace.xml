@@ -2,15 +2,616 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2b2b47-53b5-4eec-a04a-0aa477ad2326" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/font_end.zip" afterPath="$PROJECT_DIR$/assets/font_end.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources.zip" afterPath="$PROJECT_DIR$/resources.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/sessions/FiiJqRP48p5U1s7WUhqa4zBafbSVWkx75FcWkacb" afterPath="$PROJECT_DIR$/storage/framework/sessions/FiiJqRP48p5U1s7WUhqa4zBafbSVWkx75FcWkacb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/call.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/error_log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/01-45-03-06-09-2019-temu-lawak-cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/1/13.glue-gun.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/1/61.fresh-atta-2-kg.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/1/63.hot-melt-glue-gun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/1/66.Mini Glue Gun12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/1/small/13.glue-gun.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/1/thumb/13.glue-gun.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/100/100.Y11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/100/46.vivo Y11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/100/small/100.Y11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/100/thumb/100.Y11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/101/101.Y91C 2020.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/101/35.vivo Y91C 2020.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/101/44.Y91C.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/101/small/101.Y91C 2020.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/101/thumb/101.Y91C 2020.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/102/10.XIAOMI REDMI 7A matte-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/102/102.XIAOMI REDMI 7A blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/102/102.Xiaomi_Redmi_7A_Full_Specifications.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/102/29.XIAOMI REDMI 7A gem-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/102/39.XIAOMI REDMI 7A gem-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/102/72.XIAOMI REDMI 7A-gem-red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/102/small/102.XIAOMI REDMI 7A blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/102/small/102.Xiaomi_Redmi_7A_Full_Specifications.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/102/thumb/102.XIAOMI REDMI 7A blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/102/thumb/102.Xiaomi_Redmi_7A_Full_Specifications.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/103/103.Xiaomi Redmi 8A 3GB RAM  Price in Bangladesh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/103/38.Xiaomi Redmi 8A 3GB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/103/small/103.Xiaomi Redmi 8A 3GB RAM  Price in Bangladesh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/103/thumb/103.Xiaomi Redmi 8A 3GB RAM  Price in Bangladesh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/104/100.N300RH-600x600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/104/104.N300RH-600x600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/104/small/104.N300RH-600x600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/104/thumb/104.N300RH-600x600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/105/105.Xiaomi Redmi 82.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/105/22.Xiaomi Redmi 8.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/105/75.Xiaomi Redmi 8 4-64.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/105/small/105.Xiaomi Redmi 82.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/105/thumb/105.Xiaomi Redmi 82.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/106/106.RFL Galaxy Stelo Super Hotpot 2500 ML.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/106/106.hotpot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/106/38.RFL Galaxy Stelo Super Hotpot 2500 ML.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/106/57.hot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/106/small/106.RFL Galaxy Stelo Super Hotpot 2500 ML.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/106/small/106.hotpot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/106/thumb/106.RFL Galaxy Stelo Super Hotpot 2500 ML.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/106/thumb/106.hotpot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/107/107.galaxy-plastico-hotpot-2000ml.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/107/small/107.galaxy-plastico-hotpot-2000ml.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/107/thumb/107.galaxy-plastico-hotpot-2000ml.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/108/108.lunch box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/108/67.winner-stelo-tiffin-box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/108/small/108.lunch box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/108/thumb/108.lunch box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/109/109.Winner 2 Layer Stelo Carrier- RFL Lunch Box.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/109/small/109.Winner 2 Layer Stelo Carrier- RFL Lunch Box.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/109/thumb/109.Winner 2 Layer Stelo Carrier- RFL Lunch Box.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/109452565_202733927830285_5776010695072928463_n.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/110/110.Winner Stelo Tiffin Box 4 Layer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/110/31.lunch box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/110/70.Winner Stelo Tiffin Box 4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/110/small/110.Winner Stelo Tiffin Box 4 Layer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/110/thumb/110.Winner Stelo Tiffin Box 4 Layer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/111/111.Leisure Tiffin Box Plastico One Bati.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/111/small/111.Leisure Tiffin Box Plastico One Bati.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/111/thumb/111.Leisure Tiffin Box Plastico One Bati.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/112/112.Rainbow 2 Layer Food Bowl 1000ML.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/112/64.Rainbow 2 Layer Food 1000ML.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/112/small/112.Rainbow 2 Layer Food Bowl 1000ML.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/112/thumb/112.Rainbow 2 Layer Food Bowl 1000ML.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/113/113.Single S.S. Auto Gas Stove 1-04 SRB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/113/79.Single S.S. Auto Gas Stove 1-04 SRB LPG.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/113/small/113.Single S.S. Auto Gas Stove 1-04 SRB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/113/thumb/113.Single S.S. Auto Gas Stove 1-04 SRB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/114/114.Double Glass NG Gas Stove Elegant.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/114/43.Double Glass NG Gas Stove.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/114/small/114.Double Glass NG Gas Stove Elegant.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/114/thumb/114.Double Glass NG Gas Stove Elegant.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/115/115.Electronic_Luggage_Scale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/115/40.Electronic_Luggage_Scale1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/115/small/115.Electronic_Luggage_Scale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/115/thumb/115.Electronic_Luggage_Scale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/116/116.Multifunction Electron Screwdriver Tools1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/116/87.Multifunction Electron Screwdriver Tools.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/116/small/116.Multifunction Electron Screwdriver Tools1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/116/thumb/116.Multifunction Electron Screwdriver Tools1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/117/117.WSN-12K-0102--ECXXA.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/117/43.WSN-12K-ECXXA ​3517 Watts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/117/small/117.WSN-12K-0102--ECXXA.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/117/thumb/117.WSN-12K-0102--ECXXA.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/118/118.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/118/122.Nush15 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/118/small/118.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/118/small/122.Nush15 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/118/thumb/118.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/118/thumb/122.Nush15 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/119/119.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/119/small/119.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/119/thumb/119.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/120/120.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/120/small/120.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/120/thumb/120.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/121/121.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/121/small/121.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/121/thumb/121.Caffpture.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/14/14.IMG_6266-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/14/21.IMG_6257-copy-600x434.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/14/69.IMG_6266-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/14/small/14.IMG_6266-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/14/thumb/14.IMG_6266-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/15/15.IMG_6265-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/15/30.IMG_6257-copy-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/15/65.IMG_6272-copy-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/15/87.IMG_6266-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/15/small/15.IMG_6265-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/15/thumb/15.IMG_6265-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/1595764176.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/17/17.DEEP-HYDRATION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/17/30.V7-DEEP-HYDRATION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/17/69.DEEP-HYDRATION1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/17/small/17.DEEP-HYDRATION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/17/thumb/17.DEEP-HYDRATION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/18/18.BIOAQUA-Pink-Cherry-Whitening-Pinkish-Cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/18/80.Cherry-Pinkish-Cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/18/small/18.BIOAQUA-Pink-Cherry-Whitening-Pinkish-Cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/18/thumb/18.BIOAQUA-Pink-Cherry-Whitening-Pinkish-Cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/19/19.dental-floss-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/19/54.Power-Floss.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/19/small/19.dental-floss-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/19/thumb/19.dental-floss-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/20/20.TP-Link TL-WR820N.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/20/23.TP-Link TL-WR820.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/20/small/20.TP-Link TL-WR820N.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/20/thumb/20.TP-Link TL-WR820N.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/22/22.TL-WR841.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/22/61.TL-WR841N.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/22/small/22.TL-WR841.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/22/thumb/22.TL-WR841.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/23/23.wr840n-v2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/23/64.TP-Link-TL-WR840N.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/23/93.TP-840N.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/23/small/23.wr840n-v2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/23/thumb/23.wr840n-v2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/24/24.Karchupi Dress For Women (1 Piece).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/24/36.Karchupi Dress For Women (1 Piece).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/24/small/24.Karchupi Dress For Women (1 Piece).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/24/thumb/24.Karchupi Dress For Women (1 Piece).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/25/24.3-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/25/25.3-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/25/small/25.3-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/25/thumb/25.3-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/27/27.3-scaled (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/27/27.4-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/27/34.4-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/27/60.3-scaled (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/27/small/27.3-scaled (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/27/small/27.4-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/27/thumb/27.3-scaled (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/27/thumb/27.4-scaled.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/28/18.Slimming-Tops1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/28/28.Body-shaper-for-women.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/28/34.Product details of Women Slim Up Lift Plus Size Bra Tank Top Body Shaper.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/28/76.Women-Shaper-Slim-Up-Lift-Plus-Size-Bra.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/28/small/28.Body-shaper-for-women.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/28/thumb/28.Body-shaper-for-women.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/29/29.Handy-Handheld-Sewing-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/29/45.Sewing-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/29/74.Handy-Stitch-Handheld-Sewing-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/29/small/29.Handy-Handheld-Sewing-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/29/thumb/29.Handy-Handheld-Sewing-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/30/21.apple-cutter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/30/25.apple-peller.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/30/30.Green-apple-slicer-and-green-apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/30/small/30.Green-apple-slicer-and-green-apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/30/thumb/30.Green-apple-slicer-and-green-apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/31/12.Portable-Mini-Heat-Sealing-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/31/31.Specialty-Kitchen-Tools.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/31/35.Mini-Heat-Sealing-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/31/72.Portable-Mini-Heat-Sealing-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/31/87.Mini-Heat-Sealing-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/31/small/31.Specialty-Kitchen-Tools.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/31/thumb/31.Specialty-Kitchen-Tools.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/32/32.stirring-mug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/32/70.Self-Stirring-Mug-Cup-c-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/32/93.Mug.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/32/small/32.stirring-mug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/32/thumb/32.stirring-mug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/33/33.A4tech mouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/33/88.a4tech mouse 2x click1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/33/small/33.A4tech mouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/33/thumb/33.A4tech mouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/34/10.Traveling-Flexible-Bag-Bungee.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/34/34.Traveling-Flexible-Bag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/34/99.Traveling-Flexible-Bag1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/34/small/34.Traveling-Flexible-Bag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/34/thumb/34.Traveling-Flexible-Bag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/35/35.travel-selection-3-in-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/35/75.travel-selection.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/35/small/35.travel-selection-3-in-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/35/thumb/35.travel-selection-3-in-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/36/25.Potato-Chipper.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/36/36.Potato-Chipper22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/36/56.Potato-Chipper5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/36/small/36.Potato-Chipper22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/36/thumb/36.Potato-Chipper22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/37/26.SINBO-HAND-BLENDER-4-IN-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/37/37.Blenderları-sinbo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/37/97.SINBO-HAND-BLENDER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/37/small/37.Blenderları-sinbo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/37/thumb/37.Blenderları-sinbo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/38/28.lunch-box-cao-cap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/38/38.qq-lunch-box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/38/39.QQ-Lunch-Box-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/38/small/38.qq-lunch-box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/38/thumb/38.qq-lunch-box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/39/26.Apple-Peeler-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/39/39.Apple-Peeler-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/39/small/39.Apple-Peeler-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/39/thumb/39.Apple-Peeler-Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/40/17.cc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/40/40.5-in-1-sunglasses.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/40/48.Megnet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/40/50.2258a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/40/small/40.5-in-1-sunglasses.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/40/thumb/40.5-in-1-sunglasses.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/41/24.Baby-Urine-Alarm3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/41/41.Baby-Urine-Alarm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/41/45.Baby-Urine-Alarm1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/41/small/41.Baby-Urine-Alarm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/41/thumb/41.Baby-Urine-Alarm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/42/23.AMBAR-DELUXE-COCONUT-SCRAPER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/42/42.Coconut Scraper - Silver.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/42/47.COCONUT-SCRAPER-416x416.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/42/small/42.Coconut Scraper - Silver.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/42/thumb/42.Coconut Scraper - Silver.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/43/19.Remote Control Electric Switch2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/43/29.Remote Control Electric.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/43/43.Remote Control Electric Switch.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/43/small/43.Remote Control Electric Switch.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/43/thumb/43.Remote Control Electric Switch.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/44/100.Good for travel Storage1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/44/44.Good for travel Storage liquid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/44/44.Travel Storage liquid Spray Bottle for Makeup12 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/44/57.Good for travel Storage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/44/small/44.Good for travel Storage liquid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/44/small/44.Travel Storage liquid Spray Bottle for Makeup12 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/44/thumb/44.Good for travel Storage liquid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/44/thumb/44.Travel Storage liquid Spray Bottle for Makeup12 copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/45/13.digital-therapy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/45/45.digital-therapy-machine1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/45/53.digital-therapy-machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/45/small/45.digital-therapy-machine1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/45/thumb/45.digital-therapy-machine1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/46/46.Electronic-Kitchen-scales-10-Kgs-Weight..jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/46/77.Electronic-Kitchen.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/46/81.Electronic-Kitchen-scales-10-Kgs-Weight.12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/46/small/46.Electronic-Kitchen-scales-10-Kgs-Weight..jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/46/thumb/46.Electronic-Kitchen-scales-10-Kgs-Weight..jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/47/47.Pest-Repelling-Aid-killing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/47/61.Repelling-Aid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/47/90.Pest-Repelling-Aid1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/47/small/47.Pest-Repelling-Aid-killing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/47/thumb/47.Pest-Repelling-Aid-killing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/48/14.Magic-Hose-pipe-spray-gun1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/48/48.magic-hose-50fit2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/48/small/48.magic-hose-50fit2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/48/thumb/48.magic-hose-50fit2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/49/10.Cotton-Candy-Maker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/49/28.Electric-Cotton-Candy-Maker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/49/49.Mini-Electric-Cotton-Candy-Maker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/49/small/49.Mini-Electric-Cotton-Candy-Maker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/49/thumb/49.Mini-Electric-Cotton-Candy-Maker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/50/30.BABY-CARRIER.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/50/50.BABY-CARRIERS.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/50/99.BABY-CARRIERS-Backpack.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/50/small/50.BABY-CARRIERS.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/50/thumb/50.BABY-CARRIERS.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/51/42.Apple-Peeler-1 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/51/51.Apple Peeler Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/51/small/51.Apple Peeler Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/51/thumb/51.Apple Peeler Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/52/34.Luggage-Scales.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/52/52.Luggage-ScalesLuggage-Scales.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/52/67.Portable-Digital-Luggage-Scale.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/52/small/52.Luggage-ScalesLuggage-Scales.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/52/thumb/52.Luggage-ScalesLuggage-Scales.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/53/53.Infrared Foan Vibration Heating Foot Massager.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/53/90.Foot-Massager2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/53/92.Infrared-Foan-Foot-Massager.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/53/small/53.Infrared Foan Vibration Heating Foot Massager.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/53/thumb/53.Infrared Foan Vibration Heating Foot Massager.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/54/18.Shoes-Under-12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/54/54.Shoes-Under-s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/54/80.shoes_under_1_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/54/99.Shoes-Under.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/54/small/54.Shoes-Under-s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/54/thumb/54.Shoes-Under-s.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/55/38.Revoflex Xtreme Wheels Double Power12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/55/55.Revoflex Xtreme Wheels Double Power.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/55/small/55.Revoflex Xtreme Wheels Double Power.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/55/thumb/55.Revoflex Xtreme Wheels Double Power.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/56/51.Electronic Mosquito Killer LED Electric Bug Lamp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/56/56.Electronic Mosquito Killer LED Electric Bug Zapper Lamp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/56/70.Electronic Mosquito Killer LED Electric.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/56/small/56.Electronic Mosquito Killer LED Electric Bug Zapper Lamp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/56/thumb/56.Electronic Mosquito Killer LED Electric Bug Zapper Lamp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/57/14.Refrigerator Storage Box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/57/18.refrigerator-multifunctional-storage-box-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/57/24.Refrigerator Multifunctional Storage Box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/57/57.Refrigerator Multifunctional Box.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/57/small/57.Refrigerator Multifunctional Box.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/57/thumb/57.Refrigerator Multifunctional Box.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/58/58.Genius-nicer_dicer_plus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/58/86.nicer_dicer_plus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/58/88.nicer-dicer-plus-vegetables-fruits-dicer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/58/small/58.Genius-nicer_dicer_plus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/58/thumb/58.Genius-nicer_dicer_plus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/59/11.HTB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/59/59.Blood Pressure.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/59/59.electronic-blood-pressure-monitor-RAK283.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/59/small/59.electronic-blood-pressure-monitor-RAK283.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/59/thumb/59.electronic-blood-pressure-monitor-RAK283.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/60/60.Naipo Massage Pillow Neck Back Massager with Heat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/60/60.Naipo Massage Pillow Neck Back Massager with.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/60/60.car-home-massage-pillow.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/60/small/60.car-home-massage-pillow.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/60/thumb/60.car-home-massage-pillow.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/61/15.Noodles-Pasta.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/61/43.Noodles-Pasta-Maker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/61/61.Noodles-Pasta-Maker1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/61/98.Noodles-Maker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/61/small/61.Noodles-Pasta-Maker1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/61/thumb/61.Noodles-Pasta-Maker1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/62/62.Spice Rack 16-in-1 Revolving.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/62/64.Spice-Rack-16-in-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/62/85.Spice Rack 16-in-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/62/small/62.Spice Rack 16-in-1 Revolving.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/62/thumb/62.Spice Rack 16-in-1 Revolving.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/63/63.Portable-Ice-Bag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/63/80.Ice-Bag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/63/small/63.Portable-Ice-Bag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/63/thumb/63.Portable-Ice-Bag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/64/11.V7 Deep Hydration Body.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/64/64.DEEP-HYDRATION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/64/79.V7 Deep Body Lotion.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/64/small/64.DEEP-HYDRATION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/64/thumb/64.DEEP-HYDRATION.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/65/45.V7 Toning Light Cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/65/65.V7 Toning Light Cream – 50g.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/65/94.V7 Toning Cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/65/small/65.V7 Toning Light Cream – 50g.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/65/thumb/65.V7 Toning Light Cream – 50g.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/66/38.Kinoki Detox Foot Patches 10PCS.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/66/66.Kinoki Detox Foot Patches.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/66/small/66.Kinoki Detox Foot Patches.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/66/thumb/66.Kinoki Detox Foot Patches.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/67/60.2 In 1 Anti Snoring and Air Purifier Silicone Snore Nose Clip.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/67/67.Anti Snoring1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/67/98.Anti Snoring.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/67/small/67.Anti Snoring1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/67/thumb/67.Anti Snoring1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/68/26.3 In 1 Apple Peeler Slicing Machine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/68/68.3 In 1 Apple Peeler Slicing Machine - Red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/68/small/68.3 In 1 Apple Peeler Slicing Machine - Red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/68/thumb/68.3 In 1 Apple Peeler Slicing Machine - Red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/69/59.BIOAQUA1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/69/67.Cherry-Pinkish-Cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/69/69.BIOAQUA-Pink-Cherry-Whitening-Pinkish-Cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/69/small/69.BIOAQUA-Pink-Cherry-Whitening-Pinkish-Cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/69/thumb/69.BIOAQUA-Pink-Cherry-Whitening-Pinkish-Cream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/70/39.water-purifier-review.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/70/70.water-purifier1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/70/91.water-purifier-sws.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/70/small/70.water-purifier1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/70/thumb/70.water-purifier1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/71/13.Mosquito-Killer-Lamp-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/71/67.Mosquito-Killer-Lamp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/71/71.Mosquito-Killer-Lamp-sohojbuy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/71/small/71.Mosquito-Killer-Lamp-sohojbuy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/71/thumb/71.Mosquito-Killer-Lamp-sohojbuy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/72/26.Salad Cutter Bowl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/72/72.Salad Cutter Bowl - White.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/72/73.Salad Cutter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/72/small/72.Salad Cutter Bowl - White.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/72/thumb/72.Salad Cutter Bowl - White.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/73/65.Automatic Cleaning Essential Brush.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/73/73.Automatic Cleaning Essential Brush For Kitchen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/73/77.Cleaning Essential Brush.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/73/small/73.Automatic Cleaning Essential Brush For Kitchen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/73/thumb/73.Automatic Cleaning Essential Brush For Kitchen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/74/47.Automatic Toothpaste Squeezing Device.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/74/74.Automatic Toothpaste Squeezing Device set.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/74/98.Product details of Automatic Toothpaste Squeezing.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/74/small/74.Automatic Toothpaste Squeezing Device set.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/74/thumb/74.Automatic Toothpaste Squeezing Device set.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/75/44.Electric Grinder Nima1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/75/75.Electric Grinder Nima.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/75/90.Electric Grinder Nima -NM-8300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/75/small/75.Electric Grinder Nima.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/75/thumb/75.Electric Grinder Nima.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/76/32.Power Floss Oral Irrigator Dental.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/76/53.Power Floss Oral Irrigator Dental Water.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/76/76.Power Floss Oral Irrigator Dental Water Flosser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/76/small/76.Power Floss Oral Irrigator Dental Water Flosser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/76/thumb/76.Power Floss Oral Irrigator Dental Water Flosser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/77/100.Roll-n-Go-Cosmetic-Bag-2-600x600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/77/66.Roll-n-600x600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/77/77.Makeup-Box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/77/small/77.Makeup-Box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/77/thumb/77.Makeup-Box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/78/20.Nose Ear Hair Trimmer Painless 3 in 1 Electric.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/78/55.Nose Ear Hair Trimmer Painless 3 in 1 Rechargeable.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/78/59.Nose Ear Hair Trimmer 3 in 1 Rechargeable Electric.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/78/78.Nose Ear Hair Trimmer Painless 3 in 1 Rechargeable Electric.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/78/small/78.Nose Ear Hair Trimmer Painless 3 in 1 Rechargeable Electric.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/78/thumb/78.Nose Ear Hair Trimmer Painless 3 in 1 Rechargeable Electric.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/79/47.Tp-link Archer c20 AC750  Router.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/79/73.Tp-link Archer c20 AC750  Router2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/79/79.Tp-link Archer c20 AC750.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/79/small/79.Tp-link Archer c20 AC750.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/79/thumb/79.Tp-link Archer c20 AC750.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/80/58.Micropack K203 Basic USB Keyboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/80/80.Micropack K203 Basic USB Keyboard2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/80/small/80.Micropack K203 Basic USB Keyboard2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/80/thumb/80.Micropack K203 Basic USB Keyboard2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/81/42.Wonder Hanger Max 8 Pack Easy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/81/46.Wonder Hanger Max 8 Pack Easy Closet Space Saver.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/81/70.people (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/81/81.people (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/81/82.Wonder Hanger Max 8 Pack.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/81/small/81.people (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/81/small/82.Wonder Hanger Max 8 Pack.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/81/thumb/81.people (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/81/thumb/82.Wonder Hanger Max 8 Pack.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/83/48.Double Suction Cup Corner Rack1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/83/72.Double Suction Cup Corner Rack.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/83/83.Double Suction Cup Corner Rack2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/83/small/83.Double Suction Cup Corner Rack2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/83/thumb/83.Double Suction Cup Corner Rack2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/17.1-18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/21.UTB8ofvLFmnEXKJk43Ubq6zLppXam.jpg_640x640.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/72.0097600_super-gold-kosturi-for-long-lasting-sexual-happiness-1-box.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/84.0097600_super-gold-kosturi-for-long-lasting-sexual-happiness-1-box.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/84.1-18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/84.UTB8ofvLFmnEXKJk43Ubq6zLppXam.jpg_640x640.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/small/84.0097600_super-gold-kosturi-for-long-lasting-sexual-happiness-1-box.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/small/84.1-18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/small/84.UTB8ofvLFmnEXKJk43Ubq6zLppXam.jpg_640x640.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/thumb/84.0097600_super-gold-kosturi-for-long-lasting-sexual-happiness-1-box.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/thumb/84.1-18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/84/thumb/84.UTB8ofvLFmnEXKJk43Ubq6zLppXam.jpg_640x640.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/85/78.VISION Electric Kettle (RFL)  1.5L.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/85/84.VISION Electric Kettle (RFL)  1.5L VIS-EK-004.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/85/85.vision-electric-kettle-18l-vis-ek-005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/85/small/85.vision-electric-kettle-18l-vis-ek-005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/85/thumb/85.vision-electric-kettle-18l-vis-ek-005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/86/49.Vision Electric Kettle 1.8L 005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/86/86.vision-electric-kettle-1.8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/86/small/86.vision-electric-kettle-1.8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/86/thumb/86.vision-electric-kettle-1.8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/87/69.archer-c6-ac1200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/87/72.archer-c6-ac1200-1-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/87/87.archer-c6-ac1200-4-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/87/small/87.archer-c6-ac1200-4-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/87/thumb/87.archer-c6-ac1200-4-500x500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/88/36.TP-Link Archer C9 AC1900Mbps2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/88/74.TP-Link Archer C9 AC1900Mbps1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/88/88.TP-Link Archer C9 AC1900Mbps.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/88/small/88.TP-Link Archer C9 AC1900Mbps.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/88/thumb/88.TP-Link Archer C9 AC1900Mbps.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/89/13.Alfa Net WiFi Fixed 3DBi Antenna.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/89/82.Alfa Net WiFi Fixed 3DBi Antenna Wireless-N USB Adapter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/89/89.Alfa Net WiFi Fixed 3DBi Antenna Wireless-N USB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/89/small/89.Alfa Net WiFi Fixed 3DBi Antenna Wireless-N USB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/89/thumb/89.Alfa Net WiFi Fixed 3DBi Antenna Wireless-N USB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/90/61.Biscuit, Cookies Maker – Silver.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/90/62.Biscuit, Cookies Maker.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/90/91.Biscuit Cookies Maker1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/90/small/91.Biscuit Cookies Maker1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/90/thumb/91.Biscuit Cookies Maker1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/92/58.Electric Popcorn Maker.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/92/73.Electric Popcorn Maker - Red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/92/92.Electric Popcorn Maker (Snack Maker) - Red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/92/small/92.Electric Popcorn Maker (Snack Maker) - Red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/92/thumb/92.Electric Popcorn Maker (Snack Maker) - Red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/93/24.5 in 1 Beauty Care Massager - White and Pink.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/93/52.5 in 1 Beauty Care Massager.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/93/93.5in-1-beauty-care.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/93/small/93.5in-1-beauty-care.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/93/thumb/93.5in-1-beauty-care.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/94/18.Vivo Y12 read.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/94/94.1578488744Portable Mini Refillable Perfume Bottle With Spray Scent Pump Empty Cosmetic Containers Spray Atomizer Bottle For Travel 5ml 1077-4_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/94/95.Vivo Y12 blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/94/small/94.1578488744Portable Mini Refillable Perfume Bottle With Spray Scent Pump Empty Cosmetic Containers Spray Atomizer Bottle For Travel 5ml 1077-4_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/94/small/95.Vivo Y12 blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/94/thumb/94.1578488744Portable Mini Refillable Perfume Bottle With Spray Scent Pump Empty Cosmetic Containers Spray Atomizer Bottle For Travel 5ml 1077-4_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/94/thumb/95.Vivo Y12 blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/96/43.Vivo Y152.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/96/96.Vivo Y15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/96/small/96.Vivo Y15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/96/thumb/96.Vivo Y15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/97/14.Vivo Y91.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/97/97.Vivo Y91 1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/97/small/97.Vivo Y91 1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/97/thumb/97.Vivo Y91 1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/98/29.Dish-Washing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/98/96.High Quality Silicone Dish Washing Kitchen Hand Gloves.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/98/98.Washing-Kitchen-Hand-Gloves.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/98/small/98.Washing-Kitchen-Hand-Gloves.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/98/thumb/98.Washing-Kitchen-Hand-Gloves.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/99/66.S1 6GB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/99/99.S1（6GB）.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/99/small/99.S1（6GB）.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/99/thumb/99.S1（6GB）.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/Logo copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/WSI-RIVERINE-12A-Smart_Feature-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/bottom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593849463.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593849581.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593849831.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593849847.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850001.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850063.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850151.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850254.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850266.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850276.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850286.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850413.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850518.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850697.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850889.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1593850977.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1594543776.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1594543962.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1594544667.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1594622536.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1594905798.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1595763697.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1595764176.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1595766017.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/category/1595766198.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/logo f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sb-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1593526836.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1593526937.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1593526979.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1593694320.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1593694440.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1593940791.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1593947557.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1593949030.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1594817169.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1594817556.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sliders/1594817739.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sohojbuy-gif.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/sohojbuy-logo-png300.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/users/1589952313.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/users/1589975108.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/users/1593542097.webp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/users/1593689324.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/users/1594359032.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/users/1594709609.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/users/user1598095672.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/users/user1598095979.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/users/user1598096181.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/uploads/users/user1598096212.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_back/web.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/1PvP8FbZnqLSD299zqXEgrH5P85spatwU7Knde0J" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/FiiJqRP48p5U1s7WUhqa4zBafbSVWkx75FcWkacb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/10df64e4f77a293daa670f9ef7663c1ec81a17f6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/1635a55909967eb38a2040c37c38e729707e8eae.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/1b5acbc6465741c7c9fb0c03d62b79f1f40bf21d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/1d086f9a9c0567876174ad84ab54710a6a74bbd1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/236e48223c0ee0a4834277c1383e4cfbaf43bf0f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/2460c8123fdfa618358979a756740141d59fa3d8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/47e3b4bc6e0c77d91fde4a0e1873a93c13fa1e29.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/6230558cb1ee8d7e56004dd4da30b13ad59cc632.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/6815d4b27740beee87d6b1ae9b4d3b03da942cf7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/9f9fe3b32327d0fc36da2f44941092d21c855afe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/views/d6fe768c30837af7546d09f270e3b8409bfe6fd3.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/uploads/users/2.jpg" afterPath="$PROJECT_DIR$/public/uploads/users/2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/font_end/js/owl.carousel.js" afterPath="$PROJECT_DIR$/assets/font_end/js/owl.carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckOutController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckOutController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/DashboardController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/DashboardController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/OrderController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/OrderController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/includes/sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/includes/sidebar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/website/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/website/home.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/website/home_page_ajax_category.blade.php" afterPath="$PROJECT_DIR$/resources/views/website/home_page_ajax_category.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/website/includes/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/website/includes/footer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/website/includes/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/website/includes/header.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/website/vendor/login_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/website/vendor/login_form.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/10e45477ef7281b687030e0deaa51e0fdb565870.php" afterPath="$PROJECT_DIR$/storage/framework/views/10e45477ef7281b687030e0deaa51e0fdb565870.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/36ca842469e205eb2d69015aa00f0ab391c02eae.php" afterPath="$PROJECT_DIR$/storage/framework/views/36ca842469e205eb2d69015aa00f0ab391c02eae.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/532678735b42cf189228e7cb295ee809dbcc03e1.php" afterPath="$PROJECT_DIR$/storage/framework/views/532678735b42cf189228e7cb295ee809dbcc03e1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/7a19de385646303783f6d7c03159def7d052ae54.php" afterPath="$PROJECT_DIR$/storage/framework/views/7a19de385646303783f6d7c03159def7d052ae54.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/e1675d0cce0f095482def72fd8903534c406c369.php" afterPath="$PROJECT_DIR$/storage/framework/views/e1675d0cce0f095482def72fd8903534c406c369.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/laravel.log" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" />
     </list>
     <ignored path="suhojbuy.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,114 +633,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/website/product.blade.php">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="237" column="68" selection-start-line="237" selection-start-column="68" selection-end-line="237" selection-end-column="68" />
+            <state relative-caret-position="187">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/website/includes/footer.blade.php">
+      <file leaf-file-name="DashboardController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/DashboardController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="53" column="68" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="68" />
+            <state relative-caret-position="1105">
+              <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="owl.carousel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/font_end/js/owl.carousel.js">
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/includes/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="3447" column="52" selection-start-line="3447" selection-start-column="52" selection-end-line="3447" selection-end-column="52" />
-              <folding>
-                <marker date="1604326637263" expanded="false" signature="0:7" placeholder="/** Created by User on 11/2/2020. ...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scroller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/font_end/js/scroller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.countdown.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/font_end/js/jquery.countdown.js">
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/includes/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="963" column="11" selection-start-line="963" selection-start-column="11" selection-end-line="963" selection-end-column="11" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lightslider.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/font_end/js/lightslider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="1139" column="11" selection-start-line="1139" selection-start-column="11" selection-end-line="1139" selection-end-column="11" />
+            <state relative-caret-position="-4298">
+              <caret line="114" column="78" selection-start-line="114" selection-start-column="78" selection-end-line="114" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elevatezoom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/font_end/js/elevatezoom.js">
+      <file leaf-file-name="login_form.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/vendor/login_form.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="1789" column="31" selection-start-line="1789" selection-start-column="31" selection-end-line="1789" selection-end-column="31" />
+            <state relative-caret-position="323">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1103">
+              <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
               <folding>
-                <marker date="1604326480657" expanded="false" signature="0:2" placeholder="/** Created by User on 11/2/2020. ...*/" />
+                <marker date="1608098308169" expanded="true" signature="2701:7199" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.tweet.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/font_end/js/jquery.tweet.js">
+      <file leaf-file-name="home_page_ajax_category.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/website/home_page_ajax_category.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="311" column="4" selection-start-line="311" selection-start-column="4" selection-end-line="311" selection-end-column="4" />
+            <state relative-caret-position="544">
+              <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#1354#4342#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.cookie.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/font_end/js/jquery.cookie.js">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="884">
+              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.liquid-slider.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/font_end/js/jquery.liquid-slider.min.js">
+      <file leaf-file-name="mail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21751" selection-start-line="5" selection-start-column="21751" selection-end-line="5" selection-end-column="21751" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,12 +753,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/website/all_product_by_ajax.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/website/all_products.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/order/edit.blade.php" />
-        <option value="$USER_HOME$/Desktop/zaman/index.html" />
-        <option value="$PROJECT_DIR$/resources/views/admin/order/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/OrderController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/order/pagination.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.env.example" />
@@ -176,12 +763,10 @@
         <option value="$PROJECT_DIR$/resources/views/website/cart_ajax.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/checkout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/related_product.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/website/product_search.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/website/category.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/website/product.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/website/home_page_ajax_category.blade.php" />
         <option value="$PROJECT_DIR$/assets/font_end/css/custom.css" />
         <option value="$PROJECT_DIR$/assets/font_end/js/html5shiv.js" />
         <option value="$PROJECT_DIR$/assets/font_end/js/respond.min.js" />
@@ -189,8 +774,6 @@
         <option value="$PROJECT_DIR$/assets/font_end/js/jquery-migrate.min.js" />
         <option value="$PROJECT_DIR$/assets/font_end/css/jquery.bxslider.css" />
         <option value="$PROJECT_DIR$/assets/font_end/js/jquery.bxslider.min.js" />
-        <option value="$PROJECT_DIR$/resources/views/website/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/website/includes/header.blade.php" />
         <option value="$PROJECT_DIR$/assets/font_end/js/jquery.plugin.min.js" />
         <option value="$PROJECT_DIR$/assets/font_end/js/jquery.number.min.js" />
         <option value="$PROJECT_DIR$/assets/font_end/js/jquery.validate.min.js" />
@@ -211,6 +794,16 @@
         <option value="$PROJECT_DIR$/assets/font_end/js/scroller.js" />
         <option value="$PROJECT_DIR$/assets/font_end/js/owl.carousel.js" />
         <option value="$PROJECT_DIR$/resources/views/website/includes/footer.blade.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CheckOutController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/OrderController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/includes/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/DashboardController.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/includes/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/vendor/login_form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/home_page_ajax_category.blade.php" />
       </list>
     </option>
   </component>
@@ -226,10 +819,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1260" />
-    <option name="height" value="944" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -256,7 +849,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -273,6 +865,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,6 +919,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,6 +987,102 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="setting" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -380,7 +1108,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,12 +1125,18 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="font_end" />
+              <option name="myItemId" value="bdshoppingzon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bdshoppingzon" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,38 +1150,17 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="font_end" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdshoppingzon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bdshoppingzon" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font_end" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,18 +1251,23 @@
       <workItem from="1604220387882" duration="1221000" />
       <workItem from="1604222075313" duration="19315000" />
       <workItem from="1604315471910" duration="1025000" />
-      <workItem from="1604317694755" duration="8624000" />
+      <workItem from="1604317694755" duration="8754000" />
+      <workItem from="1604573676724" duration="1025000" />
+      <workItem from="1604639945241" duration="3303000" />
+      <workItem from="1604658678194" duration="962000" />
+      <workItem from="1604659740769" duration="60000" />
+      <workItem from="1608097881942" duration="640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223118000" />
+    <option name="totallyTimeSpent" value="229238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="20" width="1260" height="944" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24517685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24453124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -564,7 +1282,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -585,85 +1303,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/error_log" />
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AjaxController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/font_end/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="251" column="29" selection-start-line="251" selection-start-column="29" selection-end-line="251" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/cart.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/cart_ajax.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/checkout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3485">
-          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/font_end/js/mycustom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3529">
-          <caret line="183" column="1" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/website/related_product.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -675,7 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-155">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +1328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
           <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +1335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="286" column="138" selection-start-line="286" selection-start-column="138" selection-end-line="286" selection-end-column="138" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +1342,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,29 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#282#305#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/home_page_ajax_category.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="e#851#929#0#HTML" expanded="true" />
-            <element signature="e#980#1185#0#HTML" expanded="true" />
-            <element signature="e#2127#2172#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-379">
           <caret line="414" column="38" selection-start-line="414" selection-start-column="38" selection-end-line="414" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,9 +1363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="137" selection-start-line="7" selection-start-column="137" selection-end-line="7" selection-end-column="137" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,7 +1370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="77" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="101839" selection-start-line="0" selection-start-column="101839" selection-end-line="0" selection-end-column="101839" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,9 +1384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="7085" selection-start-line="1" selection-start-column="7085" selection-end-line="1" selection-end-column="7085" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,7 +1391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746">
           <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,53 +1398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="24065" selection-start-line="6" selection-start-column="24065" selection-end-line="6" selection-end-column="24065" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="103" selection-start-line="37" selection-start-column="103" selection-end-line="37" selection-end-column="103" />
-          <folding>
-            <element signature="e#1823#1855#0#HTML" expanded="true" />
-            <element signature="e#1882#1907#0#HTML" expanded="true" />
-            <element signature="e#3279#3390#0#HTML" expanded="true" />
-            <element signature="e#3427#3505#0#HTML" expanded="true" />
-            <element signature="e#3564#3769#0#HTML" expanded="true" />
-            <marker date="1604325538786" expanded="true" signature="1078:1381" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="1855:2105" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="1907:2105" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="3269:3802" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="3505:3802" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="3508:3802" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="3949:4938" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="3992:4938" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="4065:4938" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="4115:4938" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="4163:4938" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="4828:4938" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="4879:4938" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="4882:4938" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="5449:5579" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="5512:5579" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="5515:5579" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="5848:6420" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="5915:6373" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="6692:6998" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="6776:6846" placeholder="..." />
-            <marker date="1604325538786" expanded="true" signature="7249:7283" placeholder="{&quot;url&quot;: &quot;{{url(...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/includes/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4658">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <marker date="1604325642265" expanded="true" signature="3959:3972" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,9 +1405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,7 +1412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,9 +1419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="23122" selection-start-line="3" selection-start-column="23122" selection-end-line="3" selection-end-column="23122" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,9 +1426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="4890" selection-start-line="6" selection-start-column="4890" selection-end-line="6" selection-end-column="4890" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,9 +1433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="21539" selection-start-line="5" selection-start-column="21539" selection-end-line="5" selection-end-column="21539" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,9 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="3601" selection-start-line="43" selection-start-column="3601" selection-end-line="43" selection-end-column="3601" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -909,7 +1447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10629" selection-start-line="0" selection-start-column="10629" selection-end-line="0" selection-end-column="10629" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,7 +1454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="772">
           <caret line="2562" column="11" selection-start-line="2562" selection-start-column="11" selection-end-line="2562" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,37 +1461,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="21751" selection-start-line="5" selection-start-column="21751" selection-end-line="5" selection-end-column="21751" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/font_end/js/jquery.cookie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
+        <state relative-caret-position="1870">
           <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/font_end/js/jquery.tweet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
+        <state relative-caret-position="5253">
           <caret line="311" column="4" selection-start-line="311" selection-start-column="4" selection-end-line="311" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/website/product.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="4029">
           <caret line="237" column="68" selection-start-line="237" selection-start-column="68" selection-end-line="237" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,9 +1489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="772">
           <caret line="914" column="121" selection-start-line="914" selection-start-column="121" selection-end-line="914" selection-end-column="121" />
-          <folding>
-            <marker date="1604326348580" expanded="false" signature="0:2" placeholder="/** Created by User on 11/2/2020. ...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -973,9 +1496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="180" selection-start-line="25" selection-start-column="180" selection-end-line="25" selection-end-column="180" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,62 +1503,175 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="2352" selection-start-line="9" selection-start-column="2352" selection-end-line="9" selection-end-column="2352" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/font_end/js/elevatezoom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
+        <state relative-caret-position="30005">
           <caret line="1789" column="31" selection-start-line="1789" selection-start-column="31" selection-end-line="1789" selection-end-column="31" />
-          <folding>
-            <marker date="1604326480657" expanded="false" signature="0:2" placeholder="/** Created by User on 11/2/2020. ...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/font_end/js/lightslider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
+        <state relative-caret-position="19363">
           <caret line="1139" column="11" selection-start-line="1139" selection-start-column="11" selection-end-line="1139" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/font_end/js/jquery.countdown.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
+        <state relative-caret-position="16303">
           <caret line="963" column="11" selection-start-line="963" selection-start-column="11" selection-end-line="963" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/font_end/js/scroller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
+        <state relative-caret-position="782">
           <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/font_end/js/owl.carousel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
+        <state relative-caret-position="58531">
           <caret line="3447" column="52" selection-start-line="3447" selection-start-column="52" selection-end-line="3447" selection-end-column="52" />
-          <folding>
-            <marker date="1604326637263" expanded="false" signature="0:7" placeholder="/** Created by User on 11/2/2020. ...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/website/includes/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="53" column="68" selection-start-line="53" selection-start-column="62" selection-end-line="53" selection-end-column="68" />
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CheckOutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="206" column="10" selection-start-line="206" selection-start-column="10" selection-end-line="206" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5253">
+          <caret line="316" column="1" selection-start-line="316" selection-start-column="1" selection-end-line="316" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/includes/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3621">
+          <caret line="213" column="33" selection-start-line="213" selection-start-column="33" selection-end-line="213" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="77" selection-start-line="95" selection-start-column="77" selection-end-line="95" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/includes/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/vendor/login_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1103">
+          <caret line="85" column="27" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+          <folding>
+            <marker date="1608098308169" expanded="true" signature="2701:7199" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/home_page_ajax_category.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+          <folding>
+            <element signature="e#1354#4342#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/website/includes/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4298">
+          <caret line="114" column="78" selection-start-line="114" selection-start-column="78" selection-end-line="114" selection-end-column="78" />
           <folding />
         </state>
       </provider>

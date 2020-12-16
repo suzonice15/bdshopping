@@ -68,7 +68,7 @@ class DashboardController extends Controller
             $data['total_refund_order'] = DB::table('vendor_orders')->join('order_data','order_data.order_id','=','vendor_orders.order_id')->where('vendor_orders.vendor_id',Session::get('id'))->where('order_data.order_status','refund')->orderBy('vendor_orders.order_id', 'desc') ->groupBy('vendor_orders.order_id')->count();
             return view('layouts.vendor_dashboard', $data);
 
-        }
+        } else 
         {
             // $data['orders']= DB::table('order_data')->select('order_total','order_status')->get();
             $today = date('Y-m-d');

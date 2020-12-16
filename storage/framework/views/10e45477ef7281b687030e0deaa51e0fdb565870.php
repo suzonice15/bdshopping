@@ -204,7 +204,6 @@
                     <li><a href=" <?php echo e(url('admin/report/order_report')); ?>"><i class="fa fa-circle-o"></i>Order Reports</a>
                     </li>
                     <li><a href=" <?php echo e(url('admin/limited/product')); ?>"><i class="fa fa-circle-o"></i>Limited Product</a></li>
-                    <li><a href=" <?php echo e(url('admin/product/click')); ?>"><i class="fa fa-circle-o"></i>Product Click Product</a></li>
 
 
                 </ul>
@@ -279,7 +278,6 @@
                     <li><a href=" <?php echo e(url('admin/social/setting')); ?>"><i class="fa fa-circle-o"></i>Social Media Setting</a></li>
                     <li><a href=" <?php echo e(url('/clear-cache')); ?>"><i class="fa fa-circle-o"></i>clear-cache</a></li>
 
-                    <li><a href=" <?php echo e(url('/admin/default/mailSetting')); ?>"><i class="fa fa-circle-o"></i>Mail Setting</a></li>
 
 
                 </ul>

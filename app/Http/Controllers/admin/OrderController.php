@@ -245,7 +245,8 @@ class OrderController extends Controller
     public function update(Request $request, $id)
     {
 
-        
+
+
 
         $order_number = $id;
         $statusInfoCheck=$request->order_status;
@@ -313,17 +314,7 @@ class OrderController extends Controller
 
         $order_data=DB::table('order_data')->where('order_id',$order_number)->update($data);
 
-
-        /// Commision calcution
-        if ($order_status == 'completed') {
-
-
-            $this->commisionDistribution($order_number);
-            $this->pointDistribution($order_number);
-
-        }
-
-
+ 
 
 
 
@@ -368,57 +359,57 @@ class OrderController extends Controller
         if($order_details->customer_id > 0) {
 
 
-            if (!empty($order_details)) {
-
-                $order_id = $order_details->order_id;
-                $baseID = $order_details->customer_id; // order korse je tar userid
-                $order_items = unserialize($order_details->products);
-                if (is_array($order_items['items'])) {
-                    $single_product_point = 0;
-                    foreach ($order_items['items'] as $product_id => $item) {
-
-                        $single_product = DB::table('product')->select('product_point')->where('product_id', $product_id)->first();
-                        //print_r($single_product);
-                        $single_product_point += $single_product->product_point * $item['qty'];
-
-                    }
-
-
-
-
-
-
-                    $user = DB::table('users')->where('id', $baseID)->first();
-                    if ($user) {
-                        $points = $user->points;
-                        $data['points'] =$single_product_point + $points;
-
-                                            }
-
-
-                    if (!empty($baseID)) {
-
-                        DB::table('users')->where('id', $baseID)->update($data);
-
-                    }
-
-
-                    //all insert query start from here.
-                    if (!empty($baseID)) {
-                        $row_data['order_id'] = $order_id;
-                        $row_data['user_id'] = $baseID;
-                        $row_data['point'] =  $data['points'];
-
-                        DB::table('user_point_history')->insert($row_data);
-
-                    }
-
-
-
-                }
-
-
-            }
+//            if (!empty($order_details)) {
+//
+//                $order_id = $order_details->order_id;
+//                $baseID = $order_details->customer_id; // order korse je tar userid
+//                $order_items = unserialize($order_details->products);
+//                if (is_array($order_items['items'])) {
+//                    $single_product_point = 0;
+//                    foreach ($order_items['items'] as $product_id => $item) {
+//
+//                        $single_product = DB::table('product')->select('product_point')->where('product_id', $product_id)->first();
+//                        //print_r($single_product);
+//                        $single_product_point += $single_product->product_point * $item['qty'];
+//
+//                    }
+//
+//
+//
+//
+//
+//
+//                    $user = DB::table('users')->where('id', $baseID)->first();
+//                    if ($user) {
+//                        $points = $user->points;
+//                        $data['points'] =$single_product_point + $points;
+//
+//                                            }
+//
+//
+//                    if (!empty($baseID)) {
+//
+//                        DB::table('users')->where('id', $baseID)->update($data);
+//
+//                    }
+//
+//
+//                    //all insert query start from here.
+//                    if (!empty($baseID)) {
+//                        $row_data['order_id'] = $order_id;
+//                        $row_data['user_id'] = $baseID;
+//                        $row_data['point'] =  $data['points'];
+//
+//                        DB::table('user_point_history')->insert($row_data);
+//
+//                    }
+//
+//
+//
+//                }
+//
+//
+//            }
 
 
         }
@@ -428,371 +419,371 @@ class OrderController extends Controller
     function commisionDistribution($order_id)
     {
 
-        $order_details = DB::table('order_data')->where('order_id', $order_id)->first();
-
-        if ($order_details->user_id == 0 && $order_details->order_from_affilite_id == 0) {
-            if (!empty($order_details)) {
-                $order_id = $order_details->order_id;
-                $order_items = unserialize($order_details->products);
-                if (is_array($order_items['items'])) {
-
-                    foreach ($order_items['items'] as $product_id => $item) {
-
-                        $single_product = DB::table('product')->select('product_profite', 'product_point','vendor_id','vendor_price','discount_price')->where('product_id', $product_id)->first();
-                        
-                        if ($single_product->vendor_id!=0) {
-                             $vendorInfo=DB::table('vendor')
-                                            ->where('vendor.vendor_id',$single_product->vendor_id)
-                                            ->select('vendor.life_time_earning','vendor.amount')
-                                            ->first();
-                            $vendor_life_amount=$vendorInfo->life_time_earning+$single_product->vendor_price;
-                            $adminPrice=($single_product->discount_price-$single_product->vendor_price);
-                            $adminPriceData=array();
-                            $adminPriceData['vendor_id']=$single_product->vendor_id;
-                            $adminPriceData['amount']=$adminPrice;
-                            $adminPriceData['date']=date("Y-m-d");;
-                            $adminPriceData['product_id']=$product_id;
-                            $adminPriceData['vendor_amount']=$single_product->vendor_price;
-                            DB::table('vendor_price_commution')
-                                    ->insert($adminPriceData);
-                            $vendor_amount=$vendorInfo->amount+$single_product->vendor_price;
-                            $dataUpdateVendor=array();
-                            $dataUpdateVendor['life_time_earning']=$vendor_life_amount;
-                            $dataUpdateVendor['amount']=$vendor_amount;
-                            DB::table('vendor')
-                                ->where('vendor.vendor_id',$single_product->vendor_id)
-                                ->update($dataUpdateVendor);
-                        }
-
-                    }
-                }
-            }
-        }
-
-        /// affiliate order from  website
-        if($order_details->user_id > 0) {
-
-
-            if (!empty($order_details)) {
-
-                $order_id = $order_details->order_id;
-                $baseID = $order_details->user_id; // order korse je tar userid
-                $order_items = unserialize($order_details->products);
-                if (is_array($order_items['items'])) {
-                    $single_product_profit = 0;
-                    $single_product_point = 0;
-                    foreach ($order_items['items'] as $product_id => $item) {
-
-                        $single_product = DB::table('product')->select('product_profite', 'product_point','vendor_id','vendor_price','discount_price')->where('product_id', $product_id)->first();
-                        $single_product_profit += $single_product->product_profite * $item['qty'];
-                        if ($single_product->vendor_id!=0) {
-                             $vendorInfo=DB::table('vendor')
-                                            ->where('vendor.vendor_id',$single_product->vendor_id)
-                                            ->select('vendor.life_time_earning','vendor.amount')
-                                            ->first();
-                            $vendor_life_amount=$vendorInfo->life_time_earning+$single_product->vendor_price;
-                            $adminPrice=($single_product->discount_price-$single_product->vendor_price);
-                            $adminPriceData=array();
-                            $adminPriceData['vendor_id']=$single_product->vendor_id;
-                            $adminPriceData['amount']=$adminPrice;
-                            $adminPriceData['date']=date("Y-m-d");;
-                            $adminPriceData['product_id']=$product_id;
-                            $adminPriceData['vendor_amount']=$single_product->vendor_price;
-                            DB::table('vendor_price_commution')
-                                    ->insert($adminPriceData);
-                            $vendor_amount=$vendorInfo->amount+$single_product->vendor_price;
-                            $dataUpdateVendor=array();
-                            $dataUpdateVendor['life_time_earning']=$vendor_life_amount;
-                            $dataUpdateVendor['amount']=$vendor_amount;
-                            DB::table('vendor')
-                                ->where('vendor.vendor_id',$single_product->vendor_id)
-                                ->update($dataUpdateVendor);
-                        }
-
-                    }
-
-
-                    // money for son
-
-                    $commistion = DB::table('affilite_commission_lavel')->where('user_id', $baseID)->orderBy('commision_lavel_id','desc')->first();
-                    if(empty($commistion)){
-                        $comission_3 = 10;
-
-                    } else {
-
-                        $comission_3 = $commistion->commision;
-                    }
-
-
-
-                    $pointvalue = 0;
-
-                    $comission_price_3 = (($single_product_profit * $comission_3) / 100);
-
-
-                    $son = DB::table('users_public')->where('id', $baseID)->first();
-
-
-                    /// son income
-                    if ($son) {
-                        $base_name = $son->name;
-
-                        //joy update $data_principalblance_3['earning_balance'] = $son->earning_balance + $comission_price_3;
-
-                       // $data_principalblance_3['shopping_point'] = $son->shopping_point + $single_product_point;
-                        $data_principalblance_3['shopping_point'] = $son->shopping_point + $single_product_point;
-
-                        $father_id = $son->parent_id; // got parent id for base user.
-                        /// father income
-                        if ($father_id) {
-                            $comission_price_2 = ($comission_price_3 * 10) / 100;
-                            $father = DB::table('users_public')->where('id', $father_id)->first();
-                            $earning_history_2['earner_name'] = $father->name;
-                            $data_principalblance_2['earning_balance'] = $father->earning_balance + $comission_price_2;
-                            // $data_principalblance_2['shopping_point']= $father->shopping_point+50;
-                            $grand_father_id = $father->parent_id; // got parent id for base user.
-                        }
-
-
-                        /// grandfather income
-
-                if(isset($grand_father_id)){
-                    $comission_price_1=($comission_price_2*1)/100;
-                    $grand_father=  DB::table('users_public')->where('id',$grand_father_id)->first();
-                    if ($grand_father) {
-                        $earning_history_1['earner_name'] = $grand_father->name;
-                        $data_principalblance_1['earning_balance']= $grand_father->earning_balance+$comission_price_1;
-                    }
-                    
-                    //$data_principalblance_1['points_balance']= $grand_father->points_balance+50;
-                  //  $grand_father_id = $father->parent_id; // got parent id for base user.
-                }
-
-
-                    }
-
-
-                    if (!empty($baseID)) {
-
-                        DB::table('users_public')->where('id', $baseID)->update($data_principalblance_3);
-
-                    }
-                    if (!empty($father_id)) {
-
-                        DB::table('users_public')->where('id', $father_id)->update($data_principalblance_2);
-
-                    }
-                if (!empty($grand_father_id)) {
-
-                    DB::table('users_public')->where('id',$grand_father_id)->update($data_principalblance_1);
-
-                }
-
-
-                    //all insert query start from here.
-                    if (!empty($baseID)) {
-                        $earning_history_3['order_id'] = $order_id;
-                        $earning_history_3['earner_name'] = $base_name;
-                        $earning_history_3['earner_id'] = $baseID;
-                        $earning_history_3['commision'] = $comission_price_3;
-                        $earning_history_3['earning_for_id'] = $baseID;
-                        DB::table('earning_history')->insert($earning_history_3);
-
-                    }
-                    if (!empty($father_id)) {
-                        $earning_history_2['order_id'] = $order_id;
-                        $earning_history_2['earner_name'] = $base_name;
-                        $earning_history_2['earner_id'] = $baseID;
-                        $earning_history_2['commision'] = $comission_price_2;
-                        $earning_history_2['earning_for_id'] = $father_id;
-                        DB::table('earning_history')->insert($earning_history_2);
-
-                    }
-                if (!empty($grand_father_id)) {
-                    $earning_history_1['order_id']=$order_id;
-                    $earning_history_1['earner_name']=$base_name;
-                    $earning_history_1['earner_id']=$baseID;
-                    $earning_history_1['commision']=$comission_price_1;
-                    $earning_history_1['earning_for_id']=$grand_father_id;
-                    DB::table('earning_history')->insert($earning_history_1);
-
-                }
-
-
-                }
-
-
-            }
-
-
-        }
-
-
-        /// direct  order from  affilita panel
-
-        if($order_details->order_from_affilite_id > 0) {
-
-
-
-
-                $order_id = $order_details->order_id;
-                $baseID = $order_details->order_from_affilite_id; // order korse je tar user_id
-                $order_items = unserialize($order_details->products);
-                if (is_array($order_items['items'])) {
-                    $single_product_profit = 0;
-                    $single_product_point = 0;
-                    foreach ($order_items['items'] as $product_id => $item) {
-
-                        $single_product = DB::table('product')->select('product_profite', 'product_point','vendor_id','vendor_price','discount_price')->where('product_id', $product_id)->first();
-                        // print_r($single_product);
-                        // exit();
-                      $single_product_profit += $single_product->product_profite * $item['qty'];
-                        $single_product_point += $single_product->product_point * $item['qty'];
-                        if ($single_product->vendor_id!=0) {
-                            // echo $single_product->vendor_id;
-                            // exit();
-                            $vendorInfo=DB::table('vendor')
-                                            ->where('vendor.vendor_id',$single_product->vendor_id)
-                                            ->select('vendor.life_time_earning','vendor.amount')
-                                            ->first();
-                            $vendor_life_amount=$vendorInfo->life_time_earning+$single_product->vendor_price;
-                            $adminPrice=($single_product->discount_price-$single_product->vendor_price);
-                            $adminPriceData=array();
-                            $adminPriceData['vendor_id']=$single_product->vendor_id;
-                            $adminPriceData['amount']=$adminPrice;
-                            $adminPriceData['date']=date("Y-m-d");;
-                            $adminPriceData['product_id']=$product_id;
-                            $adminPriceData['vendor_amount']=$single_product->vendor_price;
-                            DB::table('vendor_price_commution')
-                                    ->insert($adminPriceData);
-                            $vendor_amount=$vendorInfo->amount+$single_product->vendor_price;
-                            $dataUpdateVendor=array();
-                            $dataUpdateVendor['life_time_earning']=$vendor_life_amount;
-                            $dataUpdateVendor['amount']=$vendor_amount;
-                            DB::table('vendor')
-                                ->where('vendor.vendor_id',$single_product->vendor_id)
-                                ->update($dataUpdateVendor);
-                        }
-
-                    }
-
-
-                    // money for son
-
-
-
-
-                   // $pointvalue = 0;
-
-
-
-
-                    $son = DB::table('users_public')->where('id', $baseID)->first();
-                    if ($son) {
-                        $base_name = $son->name;
-                       // $data_principalblance_3['earning_balance'] = $son->earning_balance + $comission_price_3;
-                        $data_principalblance_3['shopping_point'] = $son->shopping_point + $single_product_point;
-
-                        $father_id = $son->parent_id; // got parent id for base user.
-
-                        if ($father_id) {
-
-
-                            $commistion = DB::table('affilite_commission_lavel')->where('user_id', $father_id)->orderBy('commision_lavel_id','desc')->first();
-                            if(empty($commistion)){
-                                $comission_3 = 10;
-
-                            } else {
-
-                                $comission_3 = $commistion->commision;
-                            }
-
-                            $comission_price_3 = (($single_product_profit * $comission_3) / 100);
-
-                           // $comission_price_2 = ($comission_price_3 * 10) / 100;
-                            $father = DB::table('users_public')->where('id', $father_id)->first();
-                            $earning_history_2['earner_name'] = $father->name;
-                            $data_principalblance_2['earning_balance'] = $father->earning_balance + $comission_price_3;
-                            // $data_principalblance_2['shopping_point']= $father->shopping_point+50;
-                            $grand_father_id = $father->parent_id; // got parent id for base user.
-                            if($grand_father_id){
-                                $grand_father_id = $father->parent_id; // got parent id for base user.
-
-                            } else {
-
-                                $grand_father_id = 2; // got parent id for base user.
-
-                            }
-                        }
-
-                if(isset($grand_father_id)){
-                    $comission_price_1=($comission_price_3*10)/100;
-                    $grand_father=  DB::table('users_public')->where('id',$grand_father_id)->first();
-                    $earning_history_1['earner_name'] = $grand_father->name;
-                    $data_principalblance_1['earning_balance']= $grand_father->earning_balance+$comission_price_1;
-                   // $data_principalblance_1['points_balance']= $grand_father->points_balance+50;
-                    $grand_father_id = $father->parent_id; // got parent id for base user.
-                }
-
-
-                    }
-
-
-                    if (!empty($baseID)) {
-
-                        DB::table('users_public')->where('id', $baseID)->update($data_principalblance_3);
-
-                    }
-                    if (!empty($father_id)) {
-
-                        DB::table('users_public')->where('id', $father_id)->update($data_principalblance_2);
-
-                    }
-                if (!empty($grand_father_id)) {
-
-                    DB::table('users_public')->where('id',$grand_father_id)->update($data_principalblance_1);
-
-                }
-
-
-                    //all insert query start from here.
-                    if (!empty($baseID)) {
-                        // $earning_history_3['order_id'] = $order_id;
-                        // $earning_history_3['earner_name'] = $base_name;
-                        // $earning_history_3['earner_id'] = $baseID;
-                        // $earning_history_3['points'] = $single_product_point;
-                        // $earning_history_3['earning_for_id'] = $baseID;
-                        // DB::table('earning_history')->insert($earning_history_3);
-
-                    }
-                    if (!empty($father_id)) {
-                        $earning_history_2['order_id'] = $order_id;
-                        $earning_history_2['earner_name'] = $base_name;
-                        $earning_history_2['earner_id'] = $baseID;
-                        $earning_history_2['commision'] = $comission_price_3;
-                        $earning_history_2['earning_for_id'] = $father_id;
-                        DB::table('earning_history')->insert($earning_history_2);
-
-                    }
-                if (!empty($grand_father_id)) {
-                    $earning_history_1['order_id']=$order_id;
-                    $earning_history_1['earner_name']=$base_name;
-                    $earning_history_1['earner_id']=$baseID;
-                    $earning_history_1['commision']=$comission_price_1;
-                    $earning_history_1['earning_for_id']=$grand_father_id;
-                    DB::table('earning_history')->insert($earning_history_1);
-
-                }
-
-
-                }
-
-
-
-
-
-        }
-
+//        $order_details = DB::table('order_data')->where('order_id', $order_id)->first();
+//
+//        if ($order_details->user_id == 0 && $order_details->order_from_affilite_id == 0) {
+//            if (!empty($order_details)) {
+//                $order_id = $order_details->order_id;
+//                $order_items = unserialize($order_details->products);
+//                if (is_array($order_items['items'])) {
+//
+//                    foreach ($order_items['items'] as $product_id => $item) {
+//
+//                        $single_product = DB::table('product')->select('product_profite', 'product_point','vendor_id','vendor_price','discount_price')->where('product_id', $product_id)->first();
+//
+//                        if ($single_product->vendor_id!=0) {
+//                             $vendorInfo=DB::table('vendor')
+//                                            ->where('vendor.vendor_id',$single_product->vendor_id)
+//                                            ->select('vendor.life_time_earning','vendor.amount')
+//                                            ->first();
+//                            $vendor_life_amount=$vendorInfo->life_time_earning+$single_product->vendor_price;
+//                            $adminPrice=($single_product->discount_price-$single_product->vendor_price);
+//                            $adminPriceData=array();
+//                            $adminPriceData['vendor_id']=$single_product->vendor_id;
+//                            $adminPriceData['amount']=$adminPrice;
+//                            $adminPriceData['date']=date("Y-m-d");;
+//                            $adminPriceData['product_id']=$product_id;
+//                            $adminPriceData['vendor_amount']=$single_product->vendor_price;
+//                            DB::table('vendor_price_commution')
+//                                    ->insert($adminPriceData);
+//                            $vendor_amount=$vendorInfo->amount+$single_product->vendor_price;
+//                            $dataUpdateVendor=array();
+//                            $dataUpdateVendor['life_time_earning']=$vendor_life_amount;
+//                            $dataUpdateVendor['amount']=$vendor_amount;
+//                            DB::table('vendor')
+//                                ->where('vendor.vendor_id',$single_product->vendor_id)
+//                                ->update($dataUpdateVendor);
+//                        }
+//
+//                    }
+//                }
+//            }
+//        }
+//
+//        /// affiliate order from  website
+//        if($order_details->user_id > 0) {
+//
+//
+//            if (!empty($order_details)) {
+//
+//                $order_id = $order_details->order_id;
+//                $baseID = $order_details->user_id; // order korse je tar userid
+//                $order_items = unserialize($order_details->products);
+//                if (is_array($order_items['items'])) {
+//                    $single_product_profit = 0;
+//                    $single_product_point = 0;
+//                    foreach ($order_items['items'] as $product_id => $item) {
+//
+//                        $single_product = DB::table('product')->select('product_profite', 'product_point','vendor_id','vendor_price','discount_price')->where('product_id', $product_id)->first();
+//                        $single_product_profit += $single_product->product_profite * $item['qty'];
+//                        if ($single_product->vendor_id!=0) {
+//                             $vendorInfo=DB::table('vendor')
+//                                            ->where('vendor.vendor_id',$single_product->vendor_id)
+//                                            ->select('vendor.life_time_earning','vendor.amount')
+//                                            ->first();
+//                            $vendor_life_amount=$vendorInfo->life_time_earning+$single_product->vendor_price;
+//                            $adminPrice=($single_product->discount_price-$single_product->vendor_price);
+//                            $adminPriceData=array();
+//                            $adminPriceData['vendor_id']=$single_product->vendor_id;
+//                            $adminPriceData['amount']=$adminPrice;
+//                            $adminPriceData['date']=date("Y-m-d");;
+//                            $adminPriceData['product_id']=$product_id;
+//                            $adminPriceData['vendor_amount']=$single_product->vendor_price;
+//                            DB::table('vendor_price_commution')
+//                                    ->insert($adminPriceData);
+//                            $vendor_amount=$vendorInfo->amount+$single_product->vendor_price;
+//                            $dataUpdateVendor=array();
+//                            $dataUpdateVendor['life_time_earning']=$vendor_life_amount;
+//                            $dataUpdateVendor['amount']=$vendor_amount;
+//                            DB::table('vendor')
+//                                ->where('vendor.vendor_id',$single_product->vendor_id)
+//                                ->update($dataUpdateVendor);
+//                        }
+//
+//                    }
+//
+//
+//                    // money for son
+//
+//                    $commistion = DB::table('affilite_commission_lavel')->where('user_id', $baseID)->orderBy('commision_lavel_id','desc')->first();
+//                    if(empty($commistion)){
+//                        $comission_3 = 10;
+//
+//                    } else {
+//
+//                        $comission_3 = $commistion->commision;
+//                    }
+//
+//
+//
+//                    $pointvalue = 0;
+//
+//                    $comission_price_3 = (($single_product_profit * $comission_3) / 100);
+//
+//
+//                    $son = DB::table('users_public')->where('id', $baseID)->first();
+//
+//
+//                    /// son income
+//                    if ($son) {
+//                        $base_name = $son->name;
+//
+//                        //joy update $data_principalblance_3['earning_balance'] = $son->earning_balance + $comission_price_3;
+//
+//                       // $data_principalblance_3['shopping_point'] = $son->shopping_point + $single_product_point;
+//                        $data_principalblance_3['shopping_point'] = $son->shopping_point + $single_product_point;
+//
+//                        $father_id = $son->parent_id; // got parent id for base user.
+//                        /// father income
+//                        if ($father_id) {
+//                            $comission_price_2 = ($comission_price_3 * 10) / 100;
+//                            $father = DB::table('users_public')->where('id', $father_id)->first();
+//                            $earning_history_2['earner_name'] = $father->name;
+//                            $data_principalblance_2['earning_balance'] = $father->earning_balance + $comission_price_2;
+//                            // $data_principalblance_2['shopping_point']= $father->shopping_point+50;
+//                            $grand_father_id = $father->parent_id; // got parent id for base user.
+//                        }
+//
+//
+//                        /// grandfather income
+//
+//                if(isset($grand_father_id)){
+//                    $comission_price_1=($comission_price_2*1)/100;
+//                    $grand_father=  DB::table('users_public')->where('id',$grand_father_id)->first();
+//                    if ($grand_father) {
+//                        $earning_history_1['earner_name'] = $grand_father->name;
+//                        $data_principalblance_1['earning_balance']= $grand_father->earning_balance+$comission_price_1;
+//                    }
+//
+//                    //$data_principalblance_1['points_balance']= $grand_father->points_balance+50;
+//                  //  $grand_father_id = $father->parent_id; // got parent id for base user.
+//                }
+//
+//
+//                    }
+//
+//
+//                    if (!empty($baseID)) {
+//
+//                        DB::table('users_public')->where('id', $baseID)->update($data_principalblance_3);
+//
+//                    }
+//                    if (!empty($father_id)) {
+//
+//                        DB::table('users_public')->where('id', $father_id)->update($data_principalblance_2);
+//
+//                    }
+//                if (!empty($grand_father_id)) {
+//
+//                    DB::table('users_public')->where('id',$grand_father_id)->update($data_principalblance_1);
+//
+//                }
+//
+//
+//                    //all insert query start from here.
+//                    if (!empty($baseID)) {
+//                        $earning_history_3['order_id'] = $order_id;
+//                        $earning_history_3['earner_name'] = $base_name;
+//                        $earning_history_3['earner_id'] = $baseID;
+//                        $earning_history_3['commision'] = $comission_price_3;
+//                        $earning_history_3['earning_for_id'] = $baseID;
+//                        DB::table('earning_history')->insert($earning_history_3);
+//
+//                    }
+//                    if (!empty($father_id)) {
+//                        $earning_history_2['order_id'] = $order_id;
+//                        $earning_history_2['earner_name'] = $base_name;
+//                        $earning_history_2['earner_id'] = $baseID;
+//                        $earning_history_2['commision'] = $comission_price_2;
+//                        $earning_history_2['earning_for_id'] = $father_id;
+//                        DB::table('earning_history')->insert($earning_history_2);
+//
+//                    }
+//                if (!empty($grand_father_id)) {
+//                    $earning_history_1['order_id']=$order_id;
+//                    $earning_history_1['earner_name']=$base_name;
+//                    $earning_history_1['earner_id']=$baseID;
+//                    $earning_history_1['commision']=$comission_price_1;
+//                    $earning_history_1['earning_for_id']=$grand_father_id;
+//                    DB::table('earning_history')->insert($earning_history_1);
+//
+//                }
+//
+//
+//                }
+//
+//
+//            }
+//
+//
+//        }
+//
+//
+//        /// direct  order from  affilita panel
+//
+//        if($order_details->order_from_affilite_id > 0) {
+//
+//
+//
+//
+//                $order_id = $order_details->order_id;
+//                $baseID = $order_details->order_from_affilite_id; // order korse je tar user_id
+//                $order_items = unserialize($order_details->products);
+//                if (is_array($order_items['items'])) {
+//                    $single_product_profit = 0;
+//                    $single_product_point = 0;
+//                    foreach ($order_items['items'] as $product_id => $item) {
+//
+//                        $single_product = DB::table('product')->select('product_profite', 'product_point','vendor_id','vendor_price','discount_price')->where('product_id', $product_id)->first();
+//                        // print_r($single_product);
+//                        // exit();
+//                      $single_product_profit += $single_product->product_profite * $item['qty'];
+//                        $single_product_point += $single_product->product_point * $item['qty'];
+//                        if ($single_product->vendor_id!=0) {
+//                            // echo $single_product->vendor_id;
+//                            // exit();
+//                            $vendorInfo=DB::table('vendor')
+//                                            ->where('vendor.vendor_id',$single_product->vendor_id)
+//                                            ->select('vendor.life_time_earning','vendor.amount')
+//                                            ->first();
+//                            $vendor_life_amount=$vendorInfo->life_time_earning+$single_product->vendor_price;
+//                            $adminPrice=($single_product->discount_price-$single_product->vendor_price);
+//                            $adminPriceData=array();
+//                            $adminPriceData['vendor_id']=$single_product->vendor_id;
+//                            $adminPriceData['amount']=$adminPrice;
+//                            $adminPriceData['date']=date("Y-m-d");;
+//                            $adminPriceData['product_id']=$product_id;
+//                            $adminPriceData['vendor_amount']=$single_product->vendor_price;
+//                            DB::table('vendor_price_commution')
+//                                    ->insert($adminPriceData);
+//                            $vendor_amount=$vendorInfo->amount+$single_product->vendor_price;
+//                            $dataUpdateVendor=array();
+//                            $dataUpdateVendor['life_time_earning']=$vendor_life_amount;
+//                            $dataUpdateVendor['amount']=$vendor_amount;
+//                            DB::table('vendor')
+//                                ->where('vendor.vendor_id',$single_product->vendor_id)
+//                                ->update($dataUpdateVendor);
+//                        }
+//
+//                    }
+//
+//
+//                    // money for son
+//
+//
+//
+//
+//                   // $pointvalue = 0;
+//
+//
+//
+//
+//                    $son = DB::table('users_public')->where('id', $baseID)->first();
+//                    if ($son) {
+//                        $base_name = $son->name;
+//                       // $data_principalblance_3['earning_balance'] = $son->earning_balance + $comission_price_3;
+//                        $data_principalblance_3['shopping_point'] = $son->shopping_point + $single_product_point;
+//
+//                        $father_id = $son->parent_id; // got parent id for base user.
+//
+//                        if ($father_id) {
+//
+//
+//                            $commistion = DB::table('affilite_commission_lavel')->where('user_id', $father_id)->orderBy('commision_lavel_id','desc')->first();
+//                            if(empty($commistion)){
+//                                $comission_3 = 10;
+//
+//                            } else {
+//
+//                                $comission_3 = $commistion->commision;
+//                            }
+//
+//                            $comission_price_3 = (($single_product_profit * $comission_3) / 100);
+//
+//                           // $comission_price_2 = ($comission_price_3 * 10) / 100;
+//                            $father = DB::table('users_public')->where('id', $father_id)->first();
+//                            $earning_history_2['earner_name'] = $father->name;
+//                            $data_principalblance_2['earning_balance'] = $father->earning_balance + $comission_price_3;
+//                            // $data_principalblance_2['shopping_point']= $father->shopping_point+50;
+//                            $grand_father_id = $father->parent_id; // got parent id for base user.
+//                            if($grand_father_id){
+//                                $grand_father_id = $father->parent_id; // got parent id for base user.
+//
+//                            } else {
+//
+//                                $grand_father_id = 2; // got parent id for base user.
+//
+//                            }
+//                        }
+//
+//                if(isset($grand_father_id)){
+//                    $comission_price_1=($comission_price_3*10)/100;
+//                    $grand_father=  DB::table('users_public')->where('id',$grand_father_id)->first();
+//                    $earning_history_1['earner_name'] = $grand_father->name;
+//                    $data_principalblance_1['earning_balance']= $grand_father->earning_balance+$comission_price_1;
+//                   // $data_principalblance_1['points_balance']= $grand_father->points_balance+50;
+//                    $grand_father_id = $father->parent_id; // got parent id for base user.
+//                }
+//
+//
+//                    }
+//
+//
+//                    if (!empty($baseID)) {
+//
+//                        DB::table('users_public')->where('id', $baseID)->update($data_principalblance_3);
+//
+//                    }
+//                    if (!empty($father_id)) {
+//
+//                        DB::table('users_public')->where('id', $father_id)->update($data_principalblance_2);
+//
+//                    }
+//                if (!empty($grand_father_id)) {
+//
+//                    DB::table('users_public')->where('id',$grand_father_id)->update($data_principalblance_1);
+//
+//                }
+//
+//
+//                    //all insert query start from here.
+//                    if (!empty($baseID)) {
+//                        // $earning_history_3['order_id'] = $order_id;
+//                        // $earning_history_3['earner_name'] = $base_name;
+//                        // $earning_history_3['earner_id'] = $baseID;
+//                        // $earning_history_3['points'] = $single_product_point;
+//                        // $earning_history_3['earning_for_id'] = $baseID;
+//                        // DB::table('earning_history')->insert($earning_history_3);
+//
+//                    }
+//                    if (!empty($father_id)) {
+//                        $earning_history_2['order_id'] = $order_id;
+//                        $earning_history_2['earner_name'] = $base_name;
+//                        $earning_history_2['earner_id'] = $baseID;
+//                        $earning_history_2['commision'] = $comission_price_3;
+//                        $earning_history_2['earning_for_id'] = $father_id;
+//                        DB::table('earning_history')->insert($earning_history_2);
+//
+//                    }
+//                if (!empty($grand_father_id)) {
+//                    $earning_history_1['order_id']=$order_id;
+//                    $earning_history_1['earner_name']=$base_name;
+//                    $earning_history_1['earner_id']=$baseID;
+//                    $earning_history_1['commision']=$comission_price_1;
+//                    $earning_history_1['earning_for_id']=$grand_father_id;
+//                    DB::table('earning_history')->insert($earning_history_1);
+//
+//                }
+//
+//
+//                }
+//
+//
+//
+//
+//
+//        }
+//
 
 
     }

@@ -55,20 +55,11 @@ class CheckOutController extends Controller
         $data['staff_id'] = 0;
          $data['payment_type'] = $request->payment_type;
         $data['order_area'] = $request->order_area;
-        //// $customer_name = $data['customer_name'];
-        // $customer_email = $data['customer_email'];
-        // $site_title = get_option('site_title');
-        // $site_email = get_option('email');
-
 
         $get_cookies= Cookie::get('unique_code');
         $get_link_id= Cookie::get('link_id');
 
 
-
-
-
-        //sotck reduce from product
 
 
         $items = \Cart::getContent();
@@ -124,68 +115,20 @@ class CheckOutController extends Controller
 
             $product_ids = $request->product_id;
 
-                if($get_cookies) {
 
-
-
-
-                    foreach ($product_ids as $key => $prod) {
-                        $data_product['order_id'] = $order_id;
-                        $data_product['product_id'] = $prod;
-                        $data_product['user_id'] = $set_user_id;
-                        $data_product['link_id'] = $get_link_id;
-                        $data_product['order_date'] = date('Y-m-d');
-                      //  $this->MainModel->insertData('user_order_count', $dataa);
-                        DB::table('user_order_count')->insertGetId($data_product);
-
-
-
-                    }
-
-                    foreach ($product_ids as $key => $prod) {
-
-                        $product_point= DB::table('product')->where('product_id',$prod)->first();
-                        if($product_point->discount_price){
-                            $sell_price=$product_point->discount_price;
-                        } else {
-                            $sell_price=$product_point->product_price;
-                        }
-
-                        if($product_point->product_profite > 0) {
-                            $point_product['order_id'] = $order_id;
-                            $point_product['product_id'] = $prod;
-                            $point_product['user_id'] = $set_user_id;
-                            $point_product['link_id'] = $get_link_id;
-                            $point_product['sell_price'] = $sell_price;
-                            $point_product['commission'] = $product_point->product_profite;
-                            DB::table('user_commission')->insert($point_product);
-                        }
-
-                        if($product_point->product_point > 0) {
-                            $point_product['order_id'] = $order_id;
-                            $point_product['product_id'] = $prod;
-                            $point_product['affilate_id'] = $set_user_id;
-                            $point_product['point'] = $product_point->product_point;
-                            DB::table('points')->insert($point_product);
-                        }
-
-
-
-                    }
-                }
 
             $customer_id=Session::get('customer_id');
             if($customer_id > 0) {
                 foreach ($product_ids as $key => $prod) {
 
                     $product_point = DB::table('product')->where('product_id', $prod)->first();
-                    if ($product_point->product_point > 0) {
-                        $point_product_customer['order_id'] = $order_id;
-                        $point_product_customer['product_id'] = $prod;
-                        $point_product_customer['user_id'] = $customer_id;
-                        $point_product_customer['point'] = $product_point->product_point;
-                        DB::table('points')->insert($point_product_customer);
-                    }
+//                    if ($product_point->product_point > 0) {
+//                        $point_product_customer['order_id'] = $order_id;
+//                        $point_product_customer['product_id'] = $prod;
+//                        $point_product_customer['user_id'] = $customer_id;
+//                        $point_product_customer['point'] = $product_point->product_point;
+//                        DB::table('points')->insert($point_product_customer);
+//                    }
 
 
                 }
@@ -246,8 +189,7 @@ class CheckOutController extends Controller
         $data['seo_title']=get_option('home_seo_title');
         $data['seo_keywords']=get_option('home_seo_keywords');
         $data['seo_description']=get_option('home_seo_content');
-   /////     $data['order']=DB::table('order_data')->where('order_id',$id)->first();
-    //    $data['categories']=DB::table('category')->select('category_id','category_title','category_name')->where('parent_id',0)->get();
+
 
         return view('website.cart',$data);
 
@@ -262,7 +204,7 @@ class CheckOutController extends Controller
                 'quantity' => 1, // so if the current product has a quantity of 4, another 2 will be added so this will result to 6
             ));
 
-            //  return view('website.category_ajax', compact('products'));
+          
             $view = view('website.cart_ajax')->render();
             $items = \Cart::getContent();
             //Cart::clear();
@@ -275,14 +217,13 @@ class CheckOutController extends Controller
 
             }
             $quantity= Cart::getContent()->count();
-//        $data['total']=$total;
-//        $data['count']=$quantity;
+
             $data1=[
                 'total'=>$total,
                 'count'=>$quantity,
             ];
 
-           // return response()->json(['result'=>$data1]);
+
 
             return response()->json(['html'=>$view,'result'=>$data1]);
         }

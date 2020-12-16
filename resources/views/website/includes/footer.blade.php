@@ -102,26 +102,7 @@
         </div>
     </a>
 </div>
-<!--zia end edith ----> <!-- facebook login sdk -->
 
-
-{{--<a id="gotop"><i class="fa fa-chevron-circle-up "></i></a>--}}
-
-{{--<div class="social-allway-ontop">--}}
-    {{--<div id="close_social"><span class="fa fa-times-circle" title="Share"></span></div>--}}
-    {{--<ul>--}}
-        {{--<li class="facebook social-icon"><a class="facebook social-icon" href="https://www.facebook.com/dhakabaazarbd/"--}}
-                                            {{--title="Facebook" target="_blank"> <i class="glyphicon glyphicon-search"> </a></li>--}}
-        {{--<li class="twitter social-icon"><a class="twitter social-icon" href="https://twitter.com/dhakabaazar"--}}
-                                           {{--title="Twitter" target="_blank"> <i class="fa fa-twitter"></i> </a></li>--}}
-        {{--<li class="youtube social-icon"><a class="youtube social-icon"--}}
-                                           {{--href="https://www.youtube.com/channel/UC6hCfmCPjL7Vfj_pUdByNFA/featured?view_as=subscriber"--}}
-                                           {{--title="Youtube" target="_blank"> <i class="fa fa-youtube"></i> </a></li>--}}
-        {{--<li class="instagram social-icon"><a class="instagram social-icon" href="https://www.instagram.com/dhakabaazar/"--}}
-                                             {{--title="Instagram" target="_blank"> <i class="fa fa-instagram"></i> </a>--}}
-        {{--</li>--}}
-    {{--</ul>--}}
-{{--</div>--}}
 
 <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 <script type="text/javascript" src="{{ asset('assets/font_end/')}}/js/jquery.plugin.min.js"></script>

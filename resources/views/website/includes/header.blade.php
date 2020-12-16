@@ -112,6 +112,8 @@ if (isset($page_title)) {
                                     class="glyphicon glyphicon-shopping-cart"></span> Order Now</a></li>
                     <li class="dropdown"><a href="javascript:void(0)" data-toggle="dropdown" class="user-logs"><span
                                     class="glyphicon glyphicon-user"></span> Account</a></li>
+                    <li class="dropdown"><a href="{{url('/')}}/vendor/login"   class="user-logs"><span
+                                    class="glyphicon glyphicon-user"></span> Vendor Login</a></li>
                 </ul>
             </div>
         </div>

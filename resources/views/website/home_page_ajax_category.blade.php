@@ -7,6 +7,7 @@ Arr::forget($home_cat_section,'0');
 foreach ($home_cat_section as  $category) {
 //  $category_id=$category->category_id;
 $category_info = get_category_info($category);
+        if($category_info){
 
 
 $products= DB::table('product')->select('product.product_id','product_title','product_name','discount_price','product_price','folder','feasured_image','sku')->join('product_category_relation','product.product_id','=','product_category_relation.product_id')
@@ -95,4 +96,4 @@ $products= DB::table('product')->select('product.product_id','product_title','pr
 </div>
 
 
-<?php } } ?>
+<?php } } } ?>

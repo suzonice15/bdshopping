@@ -3,7 +3,7 @@
 @section('mainContent')
 
 <div class="container">
-    <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+    <div  style="margin-top:50px;" style="height: 400px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
         <div class="panel panel-info" >
             <div class="panel-heading">
                 <div class="panel-title">Vendor Login</div>
@@ -15,9 +15,8 @@
                 <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
                 <form  action="{{url('/')}}/vendor/login" method="post"  >
 
-                    <h5 id="fadeout" style="color:red;text-aling:center"><?php
-
-
+                    <h5 id="fadeout" style="color:red;text-aling:center">
+                        <?php
                     if(isset($error)) { echo  $error;} ?></h5>
 
                     {{ csrf_field() }}
